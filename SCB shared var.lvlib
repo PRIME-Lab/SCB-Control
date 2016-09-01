@@ -25,6 +25,15 @@
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"5!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!!!!!!!</Property>
 	</Item>
+	<Item Name="SCB Changing Sample" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Network</Property>
+		<Property Name="Network:BuffSize" Type="Str">50</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">True</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typeDesc" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"5!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!!!!!!!</Property>
+	</Item>
 	<Item Name="SCB Converted Encoder" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network,Real-Time Features</Property>
 		<Property Name="Network:AccessType" Type="Str">read/write</Property>
@@ -86,7 +95,7 @@
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typedefName1" Type="Str">SC2 states.ctl</Property>
 		<Property Name="typedefPath1" Type="PathRel">../SC2 states.ctl</Property>
-		<Property Name="typeDesc" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#)B!!!!"5!A!!!!!!"!()!]1!!!!!!!!!"$F.$-C"T&gt;'&amp;U:8-O9X2M!&amp;N!&amp;A!'#GFO;82J97RJ?G5%&gt;W&amp;J&gt;!ZD;'6D;S"Q&lt;X.J&gt;'FP&lt;ARS&lt;X2B&gt;'5A&gt;WBF:7Q0=G^U982F)'.P&lt;8"M:82F#&amp;.I&gt;82E&lt;X&gt;O!!!*5U-S)(.U982F!!%!!!!!!!!!!!!!!!!</Property>
+		<Property Name="typeDesc" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;Q&lt;!%!!"5!A!!!!!!"!6I!]1!!!!!!!!!"$F.$-C"T&gt;'&amp;U:8-O9X2M!5.!&amp;A!6#GFO;82J97RJ?G5%&gt;W&amp;J&gt;".D;'&amp;O:W5A=W&amp;N='RF)(.U98*U$7.I97ZH:3"T97VQ&lt;'5/9WBF9WMA='^T;82J&lt;WY-=G^U982F)(&gt;I:76M$X*P&gt;'&amp;U:3"D&lt;WVQ&lt;'6U:1VT97VQ&lt;'5A=G^E)(6Q$X.B&lt;8"M:3"S&lt;W1A:'^X&lt;AZS:82S97.U)(*P:#"J&lt;A^S:82S97.U)(*P:#"P&gt;81.;7ZT:8*U)(*P:#"J&lt;AZJ&lt;H.F=H1A=G^E)'^V&gt;"*C:7RM&lt;X&gt;T)&amp;.$)%&gt;7)'^Q:7Y49G6M&lt;'^X=S"41S"(6C"D&lt;'^T:2*C:7RM&lt;X&gt;T)%F4)%&gt;7)'^Q:7Y49G6M&lt;'^X=S"*5S"(6C"D&lt;'^T:1NW:7ZU)(.P&gt;8*D:1NQ&gt;7VQ)(.P&gt;8*D:1:S:8JF=G])5WBV&gt;'2P&gt;WY!#6.$-C"T&gt;'&amp;U:1!"!!!!!!!!!!!!!!!!</Property>
 	</Item>
 	<Item Name="SCB Encoder destination" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network</Property>
@@ -217,5 +226,17 @@
 		<Property Name="Path" Type="Str">/Motor tests.lvproj/RT CompactRIO Target/SC2 shared var.lvlib/</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"5!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!!!!!!!</Property>
+	</Item>
+	<Item Name="SCB Timeouts" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Network</Property>
+		<Property Name="Network:BuffSize" Type="Str">50</Property>
+		<Property Name="Network:ElemSize" Type="Str">1</Property>
+		<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
+		<Property Name="Network:SingleWriter" Type="Str">False</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">True</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typeDesc" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#MK!!!!"5!A!!!!!!(!"&amp;!"A!+5W&amp;N='RF)&amp;*P:!!!%5!'!!J*&lt;H.F=H1A5G^E!!!21!9!#V*F&gt;(*B9X1A5G^E!!^!"A!)6WBF:7QA2V9!!".!"A!.37^O)&amp;.P&gt;8*D:3"(6A!41!9!$&amp;*P&gt;'&amp;U:3"8;'6F&lt;!!!*%"1!!9!!!!"!!)!!Q!%!!516'FN:7^V&gt;(-A1WRV=X2F=A!!!1!'!!!!!!!!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
 </Library>
