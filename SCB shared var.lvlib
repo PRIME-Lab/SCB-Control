@@ -6,6 +6,17 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">352354304</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
+	<Item Name="SCB Bypass Control" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Network</Property>
+		<Property Name="Network:BuffSize" Type="Str">50</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">True</Property>
+		<Property Name="numTypedefs" Type="UInt">1</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typedefName1" Type="Str">Bypass control.ctl</Property>
+		<Property Name="typedefPath1" Type="PathRel">../Bypass control.ctl</Property>
+		<Property Name="typeDesc" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$?WA!!!"5!A!!!!!!'!"J!)2641U)A37ZT:8*U)&amp;*P:#"#?8"B=X-!(E!B'&amp;.$1C"*&lt;WYA5W^V=G.F)%&gt;7)%*Z='&amp;T=Q!!(%!B&amp;F.$1C"3:82S97.U)&amp;*P:#"#?8"B=X-!!"J!)2641U)A5W&amp;N='RF)&amp;*P:#"#?8"B=X-!'%!B%V.$1C"8;'6F&lt;#"(6C"#?8"B=X-!0Q$R!!!!!!!!!!%31HFQ98.T)'.P&lt;H2S&lt;WQO9X2M!#2!5!!&amp;!!!!!1!#!!-!"!Z#?8"B=X-A1WRV=X2F=A!!!1!&amp;!!!!!!!!!!!!!!!!!!</Property>
+	</Item>
 	<Item Name="SCB Change Complete" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network,Real-Time Features</Property>
 		<Property Name="Network:AccessType" Type="Str">read/write</Property>
@@ -150,6 +161,31 @@
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!&gt;'1!!!"5!A!!!!!!"!!5!!Q!!!1!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
+	<Item Name="SCB Insert Rod Status" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Network</Property>
+		<Property Name="Network:BuffSize" Type="Str">50</Property>
+		<Property Name="Network:ElemSize" Type="Str">1</Property>
+		<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
+		<Property Name="Network:SingleWriter" Type="Str">False</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">True</Property>
+		<Property Name="numTypedefs" Type="UInt">1</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typedefName1" Type="Str">Horizontal Rod states.ctl</Property>
+		<Property Name="typedefPath1" Type="PathRel">../Horizontal Rod states.ctl</Property>
+		<Property Name="typeDesc" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"H9Q!!!"5!A!!!!!!"!&amp;%!]1!!!!!!!!!"'5BP=GF[&lt;WZU97QA5G^E)(.U982F=SZD&gt;'Q!,U!7!!-/=X2B&gt;(6T)(6O9WRF98)'=G^E)'FO"X*P:#"P&gt;81!"%6O&gt;7U!!!%!!!!!!!!!!!!!!!!</Property>
+	</Item>
+	<Item Name="SCB Ion Source GV Status" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Network</Property>
+		<Property Name="Network:BuffSize" Type="Str">50</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">True</Property>
+		<Property Name="numTypedefs" Type="UInt">1</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typedefName1" Type="Str">GV states.ctl</Property>
+		<Property Name="typedefPath1" Type="PathRel">../GV states.ctl</Property>
+		<Property Name="typeDesc" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!":61!!!"5!A!!!!!!"!%-!]1!!!!!!!!!"$5&gt;7)(.U982F=SZD&gt;'Q!,5!7!!-/=X2B&gt;(6T)(6O9WRF98)'9WRP=W6E"'^Q:7Y!!!2&amp;&lt;H6N!!!"!!!!!!!!!!!!!!!!</Property>
+	</Item>
 	<Item Name="SCB Motor status" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network</Property>
 		<Property Name="Network:AccessType" Type="Str">read/write</Property>
@@ -214,6 +250,28 @@
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!A(!!!!"5!A!!!!!!"!!N!"1!&amp;65FO&gt;$A!!1!!!!!!!!!!!!!!</Property>
 	</Item>
+	<Item Name="SCB Retract Rod Status" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Network</Property>
+		<Property Name="Network:BuffSize" Type="Str">50</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">True</Property>
+		<Property Name="numTypedefs" Type="UInt">1</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typedefName1" Type="Str">Horizontal Rod states.ctl</Property>
+		<Property Name="typedefPath1" Type="PathRel">../Horizontal Rod states.ctl</Property>
+		<Property Name="typeDesc" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"H9Q!!!"5!A!!!!!!"!&amp;%!]1!!!!!!!!!"'5BP=GF[&lt;WZU97QA5G^E)(.U982F=SZD&gt;'Q!,U!7!!-/=X2B&gt;(6T)(6O9WRF98)'=G^E)'FO"X*P:#"P&gt;81!"%6O&gt;7U!!!%!!!!!!!!!!!!!!!!</Property>
+	</Item>
+	<Item Name="SCB Sample Rod Status" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Network</Property>
+		<Property Name="Network:BuffSize" Type="Str">50</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">True</Property>
+		<Property Name="numTypedefs" Type="UInt">1</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typedefName1" Type="Str">Vertical Rod states.ctl</Property>
+		<Property Name="typedefPath1" Type="PathRel">../Vertical Rod states.ctl</Property>
+		<Property Name="typeDesc" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"H9Q!!!"5!A!!!!!!"!&amp;%!]1!!!!!!!!!"&amp;V:F=H2J9W&amp;M)&amp;*P:#"T&gt;'&amp;U:8-O9X2M!$&amp;!&amp;A!$$H.U982V=S"V&lt;G.M:7&amp;S#(*P:#"E&lt;X&gt;O"H*P:#"V=!!!"%6O&gt;7U!!!%!!!!!!!!!!!!!!!!</Property>
+	</Item>
 	<Item Name="SCB Start Sample Change" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network</Property>
 		<Property Name="Network:AccessType" Type="Str">read/write</Property>
@@ -238,5 +296,16 @@
 		<Property Name="numTypedefs" Type="UInt">0</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#MK!!!!"5!A!!!!!!(!"&amp;!"A!+5W&amp;N='RF)&amp;*P:!!!%5!'!!J*&lt;H.F=H1A5G^E!!!21!9!#V*F&gt;(*B9X1A5G^E!!^!"A!)6WBF:7QA2V9!!".!"A!.37^O)&amp;.P&gt;8*D:3"(6A!41!9!$&amp;*P&gt;'&amp;U:3"8;'6F&lt;!!!*%"1!!9!!!!"!!)!!Q!%!!516'FN:7^V&gt;(-A1WRV=X2F=A!!!1!'!!!!!!!!!!!!!!!!!!!!!!!!!!!</Property>
+	</Item>
+	<Item Name="SCB Wheel GV Status" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Network</Property>
+		<Property Name="Network:BuffSize" Type="Str">50</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">True</Property>
+		<Property Name="numTypedefs" Type="UInt">1</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typedefName1" Type="Str">GV states.ctl</Property>
+		<Property Name="typedefPath1" Type="PathRel">../GV states.ctl</Property>
+		<Property Name="typeDesc" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!":61!!!"5!A!!!!!!"!%-!]1!!!!!!!!!"$5&gt;7)(.U982F=SZD&gt;'Q!,5!7!!-/=X2B&gt;(6T)(6O9WRF98)'9WRP=W6E"'^Q:7Y!!!2&amp;&lt;H6N!!!"!!!!!!!!!!!!!!!!</Property>
 	</Item>
 </Library>
