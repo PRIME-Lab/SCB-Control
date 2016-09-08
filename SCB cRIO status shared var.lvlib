@@ -4,7 +4,7 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">352354304</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
-	<Item Name="SCB Change Complete" Type="Variable">
+	<Item Name="Change Complete" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network,Real-Time Features</Property>
 		<Property Name="Network:AccessType" Type="Str">read/write</Property>
 		<Property Name="Network:BuffSize" Type="Str">1</Property>
@@ -23,7 +23,7 @@
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"5!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!!!!!!!</Property>
 	</Item>
-	<Item Name="SCB Changing Sample" Type="Variable">
+	<Item Name="Changing Sample" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network</Property>
 		<Property Name="Network:BuffSize" Type="Str">50</Property>
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
@@ -32,7 +32,7 @@
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"5!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!!!!!!!</Property>
 	</Item>
-	<Item Name="SCB Current State" Type="Variable">
+	<Item Name="Current State" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network,Real-Time Features</Property>
 		<Property Name="Network:AccessType" Type="Str">read/write</Property>
 		<Property Name="Network:BuffSize" Type="Str">1</Property>
@@ -53,7 +53,7 @@
 		<Property Name="typedefPath1" Type="PathRel">../SC2 states.ctl</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;G9A%!!"5!A!!!!!!"!6!!]1!!!!!!!!!"$F.$-C"T&gt;'&amp;U:8-O9X2M!4F!&amp;A!5#GFO;82J97RJ?G5%&gt;W&amp;J&gt;".D;'&amp;O:W5A=W&amp;N='RF)(.U98*U$7.I97ZH:3"T97VQ&lt;'5/9WBF9WMA='^T;82J&lt;WY-=G^U982F)(&gt;I:76M&amp;H.B&lt;8"M:3"D;'&amp;O:W5A9W^N='RF&gt;'5.=W&amp;N='RF)(*P:#"V=!^T97VQ&lt;'5A=G^E)'2P&gt;WY/=G6U=G&amp;D&gt;#"S&lt;W1A;7Y0=G6U=G&amp;D&gt;#"S&lt;W1A&lt;X6U$7FO=W6S&gt;#"S&lt;W1A;7Y/;7ZT:8*U)(*P:#"P&gt;81.&gt;WBF:7QA2V9A&lt;X"F&lt;AZX;'6F&lt;#"(6C"D&lt;'^T:2*J&lt;WYA=W^V=G.F)%&gt;7)'^Q:7Y4;7^O)(.P&gt;8*D:3"(6C"D&lt;'^T:1NW:7ZU)(.P&gt;8*D:1NQ&gt;7VQ)(.P&gt;8*D:1B4;(6U:'^X&lt;A!*5U-S)(.U982F!!%!!!!!!!!!!!!!!!!</Property>
 	</Item>
-	<Item Name="SCB Insert Rod Status" Type="Variable">
+	<Item Name="Insert Rod Status" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network</Property>
 		<Property Name="Network:BuffSize" Type="Str">50</Property>
 		<Property Name="Network:ElemSize" Type="Str">1</Property>
@@ -67,7 +67,7 @@
 		<Property Name="typedefPath1" Type="PathRel">../Horizontal Rod states.ctl</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"H9Q!!!"5!A!!!!!!"!&amp;%!]1!!!!!!!!!"'5BP=GF[&lt;WZU97QA5G^E)(.U982F=SZD&gt;'Q!,U!7!!-/=X2B&gt;(6T)(6O9WRF98)'=G^E)'FO"X*P:#"P&gt;81!"%6O&gt;7U!!!%!!!!!!!!!!!!!!!!</Property>
 	</Item>
-	<Item Name="SCB Ion Source GV Status" Type="Variable">
+	<Item Name="Ion Source GV Status" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network</Property>
 		<Property Name="Network:BuffSize" Type="Str">50</Property>
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
@@ -78,7 +78,7 @@
 		<Property Name="typedefPath1" Type="PathRel">../GV states.ctl</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!":61!!!"5!A!!!!!!"!%-!]1!!!!!!!!!"$5&gt;7)(.U982F=SZD&gt;'Q!,5!7!!-/=X2B&gt;(6T)(6O9WRF98)'9WRP=W6E"'^Q:7Y!!!2&amp;&lt;H6N!!!"!!!!!!!!!!!!!!!!</Property>
 	</Item>
-	<Item Name="SCB Motor status" Type="Variable">
+	<Item Name="Motor status" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network</Property>
 		<Property Name="Network:AccessType" Type="Str">read/write</Property>
 		<Property Name="Network:BuffSize" Type="Str">1</Property>
@@ -91,7 +91,7 @@
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"5!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!!!!!!!</Property>
 	</Item>
-	<Item Name="SCB Retract Rod Status" Type="Variable">
+	<Item Name="Retract Rod Status" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network</Property>
 		<Property Name="Network:BuffSize" Type="Str">50</Property>
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
@@ -102,7 +102,7 @@
 		<Property Name="typedefPath1" Type="PathRel">../Horizontal Rod states.ctl</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"H9Q!!!"5!A!!!!!!"!&amp;%!]1!!!!!!!!!"'5BP=GF[&lt;WZU97QA5G^E)(.U982F=SZD&gt;'Q!,U!7!!-/=X2B&gt;(6T)(6O9WRF98)'=G^E)'FO"X*P:#"P&gt;81!"%6O&gt;7U!!!%!!!!!!!!!!!!!!!!</Property>
 	</Item>
-	<Item Name="SCB Sample Rod Status" Type="Variable">
+	<Item Name="Sample Rod Status" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network</Property>
 		<Property Name="Network:BuffSize" Type="Str">50</Property>
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
@@ -113,7 +113,16 @@
 		<Property Name="typedefPath1" Type="PathRel">../Vertical Rod states.ctl</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"H9Q!!!"5!A!!!!!!"!&amp;%!]1!!!!!!!!!"&amp;V:F=H2J9W&amp;M)&amp;*P:#"T&gt;'&amp;U:8-O9X2M!$&amp;!&amp;A!$$H.U982V=S"V&lt;G.M:7&amp;S#(*P:#"E&lt;X&gt;O"H*P:#"V=!!!"%6O&gt;7U!!!%!!!!!!!!!!!!!!!!</Property>
 	</Item>
-	<Item Name="SCB Wheel GV Status" Type="Variable">
+	<Item Name="State Machine Error" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Network</Property>
+		<Property Name="Network:BuffSize" Type="Str">50</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">True</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typeDesc" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"14!!!!"5!A!!!!!!%!!R!)1:T&gt;'&amp;U&gt;8-!!!N!!Q!%9W^E:1!!%%!Q`````Q:T&lt;X6S9W5!!!Q!5!!$!!!!!1!#!!%!!Q!!!!!!!!!!!!!!!!!!!!!!</Property>
+	</Item>
+	<Item Name="Wheel GV Status" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network</Property>
 		<Property Name="Network:BuffSize" Type="Str">50</Property>
 		<Property Name="Network:UseBinding" Type="Str">False</Property>

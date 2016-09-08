@@ -13,67 +13,71 @@
 	<Property Name="varPersistentID:{0DE145F4-F782-4CA3-827D-EC98A650DA81}" Type="Ref">/RT CompactRIO Target/Chassis/Mod3/AI22</Property>
 	<Property Name="varPersistentID:{125B2990-0AB1-49F3-ADC0-AF3FF0B1B876}" Type="Ref">/RT CompactRIO Target/Chassis/Mod4/Immersion Lens Voltage Set</Property>
 	<Property Name="varPersistentID:{1275728B-7177-46C6-B8DF-ADF29C02507A}" Type="Ref">/RT CompactRIO Target/Chassis/Mod7/DI12</Property>
+	<Property Name="varPersistentID:{14068DF6-9E4B-4FD4-8DC7-FBD5B5D949E9}" Type="Ref">/RT CompactRIO Target/SCB cRIO readback shared var.lvlib/Ion Source Turbo</Property>
 	<Property Name="varPersistentID:{14AFCF3E-2E32-4EE9-86F5-86C5576A3B94}" Type="Ref">/RT CompactRIO Target/Chassis/Mod3/Immersion Lens Current Monitor</Property>
 	<Property Name="varPersistentID:{14C284F2-03DE-4CA8-B430-03A42CCE04C5}" Type="Ref">/RT CompactRIO Target/Chassis/Mod7/DI30</Property>
 	<Property Name="varPersistentID:{153ACDFB-3372-49A2-BBCD-C8F9FF2D3552}" Type="Ref">/RT CompactRIO Target/Chassis/Mod6/DIO28</Property>
 	<Property Name="varPersistentID:{16B6D098-A4AF-49A2-A997-254F8D31FD9A}" Type="Ref">/RT CompactRIO Target/Chassis/Mod7/DI31</Property>
 	<Property Name="varPersistentID:{1717E9DB-AA09-4C24-944A-BA7D5CF94A9E}" Type="Ref">/RT CompactRIO Target/Chassis/Mod7/DI18</Property>
 	<Property Name="varPersistentID:{17223095-98D1-4176-A7BF-EC605B5ABFE0}" Type="Ref">/RT CompactRIO Target/Chassis/Mod7/Retract Rod In</Property>
-	<Property Name="varPersistentID:{1A063CB2-7BF2-402B-9955-FC1871B834A8}" Type="Ref">/RT CompactRIO Target/SCB cRIO readback shared var.lvlib/SCB HV readbacks</Property>
+	<Property Name="varPersistentID:{1A063CB2-7BF2-402B-9955-FC1871B834A8}" Type="Ref">/RT CompactRIO Target/SCB cRIO readback shared var.lvlib/HV readbacks</Property>
+	<Property Name="varPersistentID:{1A9115D3-13D5-4054-B073-556CE0F9E5FB}" Type="Ref">/RT CompactRIO Target/SCB cRIO status shared var.lvlib/State Machine Error</Property>
 	<Property Name="varPersistentID:{1C2AD4EA-9CF5-4D51-8FB7-CDC4160F273A}" Type="Ref">/RT CompactRIO Target/Chassis/Mod7/DI23</Property>
 	<Property Name="varPersistentID:{1DD137A0-6BD2-4590-BE56-D5783303AAFE}" Type="Ref">/RT CompactRIO Target/Chassis/Mod6/DIO5</Property>
-	<Property Name="varPersistentID:{1EE50EB5-686B-40D6-A55F-8736AC4C26D2}" Type="Ref">/RT CompactRIO Target/SCB cRIO control shared var.lvlib/SCB Close Ion Source GV</Property>
+	<Property Name="varPersistentID:{1EE50EB5-686B-40D6-A55F-8736AC4C26D2}" Type="Ref">/RT CompactRIO Target/SCB cRIO control shared var.lvlib/Close Ion Source GV</Property>
 	<Property Name="varPersistentID:{1EF5031E-E9E1-4CB2-9B5E-884BCC329164}" Type="Ref">/RT CompactRIO Target/Chassis/Mod3/AI24</Property>
 	<Property Name="varPersistentID:{2199F4F6-61FA-4A78-BDBA-B2C0FEDD42C8}" Type="Ref">/RT CompactRIO Target/Chassis/Mod3/Cathode Current Monitor</Property>
 	<Property Name="varPersistentID:{21D7A11D-61B3-46A6-BC6E-9D48F1D82162}" Type="Ref">/RT CompactRIO Target/Chassis/Mod4/Cathode Voltage Set</Property>
 	<Property Name="varPersistentID:{2394C81A-16D7-4A9F-8921-20BBEAA22225}" Type="Ref">/RT CompactRIO Target/Chassis/Mod3/Immersion Lens Voltage Monitor</Property>
 	<Property Name="varPersistentID:{242EF3C6-AA7C-4857-98B2-8A9DAEDF1A8A}" Type="Ref">/RT CompactRIO Target/Chassis/Mod6/DIO18</Property>
 	<Property Name="varPersistentID:{25D04F10-B13A-4F08-B13E-B240E02A4D13}" Type="Ref">/RT CompactRIO Target/Chassis/Mod5/DO7</Property>
-	<Property Name="varPersistentID:{25E68707-BE9A-456F-8BE8-4C39C495BDE6}" Type="Ref">/RT CompactRIO Target/SCB cRIO control shared var.lvlib/SCB Timeouts</Property>
+	<Property Name="varPersistentID:{25E68707-BE9A-456F-8BE8-4C39C495BDE6}" Type="Ref">/RT CompactRIO Target/SCB cRIO control shared var.lvlib/Timeouts</Property>
 	<Property Name="varPersistentID:{2B9B9A8C-8EFD-4593-89AB-4A156E345CD2}" Type="Ref">/RT CompactRIO Target/Chassis/Mod3/AI28</Property>
-	<Property Name="varPersistentID:{2CB8402F-4640-40FC-B473-E0059327FD26}" Type="Ref">/My Computer/Shared Variable libraries/SCB Monitor shared var.lvlib/Current State</Property>
-	<Property Name="varPersistentID:{2CF6FCFA-B05A-470A-9137-04ABD26A5AAA}" Type="Ref">/RT CompactRIO Target/SCB cRIO status shared var.lvlib/SCB Insert Rod Status</Property>
+	<Property Name="varPersistentID:{2CB8402F-4640-40FC-B473-E0059327FD26}" Type="Ref">/My Computer/Shared Variable libraries/SCB status shared var.lvlib/Current State</Property>
+	<Property Name="varPersistentID:{2CF6FCFA-B05A-470A-9137-04ABD26A5AAA}" Type="Ref">/RT CompactRIO Target/SCB cRIO status shared var.lvlib/Insert Rod Status</Property>
 	<Property Name="varPersistentID:{2F8BF7D5-E841-4011-BB3A-5179F5004DC0}" Type="Ref">/RT CompactRIO Target/Chassis/Mod5/Sample Rod</Property>
-	<Property Name="varPersistentID:{32E3F881-1C03-4437-B273-49EC375D0D07}" Type="Ref">/RT CompactRIO Target/SCB cRIO readback shared var.lvlib/SCB Encoder destination</Property>
+	<Property Name="varPersistentID:{32E3F881-1C03-4437-B273-49EC375D0D07}" Type="Ref">/RT CompactRIO Target/SCB cRIO readback shared var.lvlib/Encoder destination</Property>
 	<Property Name="varPersistentID:{33AECF64-D20E-4CA0-90EF-A5FF2A07F430}" Type="Ref">/RT CompactRIO Target/Chassis/Mod3/AI7</Property>
-	<Property Name="varPersistentID:{39AFD422-5197-4BE3-ACC1-C9A78CD7163E}" Type="Ref">/RT CompactRIO Target/SCB cRIO readback shared var.lvlib/SCB HV control</Property>
+	<Property Name="varPersistentID:{39AFD422-5197-4BE3-ACC1-C9A78CD7163E}" Type="Ref">/RT CompactRIO Target/SCB cRIO readback shared var.lvlib/HV control</Property>
 	<Property Name="varPersistentID:{3A736607-9CB2-4FE6-8C14-A04E6979E8BA}" Type="Ref">/RT CompactRIO Target/Chassis/Mod3/AI11</Property>
 	<Property Name="varPersistentID:{3ABEF78D-06B7-416A-9363-9F699D18E098}" Type="Ref">/RT CompactRIO Target/Chassis/Mod7/DI22</Property>
 	<Property Name="varPersistentID:{3B19FF9B-2DE3-4665-B9B8-DFF703474C7E}" Type="Ref">/RT CompactRIO Target/Chassis/Mod6/DIO21</Property>
-	<Property Name="varPersistentID:{3ECC87AE-8394-4B64-9897-E91D5904931A}" Type="Ref">/My Computer/Shared Variable libraries/SCB Monitor shared var.lvlib/Encoder Radius</Property>
+	<Property Name="varPersistentID:{3ECC87AE-8394-4B64-9897-E91D5904931A}" Type="Ref">/My Computer/Shared Variable libraries/SCB control shared var.lvlib/Encoder Radius</Property>
 	<Property Name="varPersistentID:{407C7D8A-DC70-4A46-A00B-C3B4A13B06A1}" Type="Ref">/RT CompactRIO Target/Chassis/Mod7/DI24</Property>
 	<Property Name="varPersistentID:{40D18920-64E2-43E2-8E3C-DC0457330CDD}" Type="Ref">/RT CompactRIO Target/Chassis/Mod3/AI15</Property>
 	<Property Name="varPersistentID:{40D75EA7-6798-4568-958C-EB18139C4DA2}" Type="Ref">/RT CompactRIO Target/Chassis/Mod4/AO10</Property>
-	<Property Name="varPersistentID:{419AE967-8C08-49CC-AEC8-6635A52B6178}" Type="Ref">/RT CompactRIO Target/SCB cRIO control shared var.lvlib/SCB Close Wheel GV</Property>
+	<Property Name="varPersistentID:{419AE967-8C08-49CC-AEC8-6635A52B6178}" Type="Ref">/RT CompactRIO Target/SCB cRIO control shared var.lvlib/Close Wheel GV</Property>
+	<Property Name="varPersistentID:{42E4378F-B5F8-4E09-9E73-2BA04B4AA1D2}" Type="Ref">/RT CompactRIO Target/SCB cRIO readback shared var.lvlib/Sample Changer Vacuum Reading</Property>
 	<Property Name="varPersistentID:{435CEE30-6A6C-4ACC-97AE-836ED695004D}" Type="Ref">/RT CompactRIO Target/Chassis/Mod3/AI27</Property>
 	<Property Name="varPersistentID:{455289BD-79B2-491A-814E-90E3AA7027A3}" Type="Ref">/RT CompactRIO Target/Chassis/Mod4/AO9</Property>
-	<Property Name="varPersistentID:{45AD0120-CD5B-4D70-A1A1-FD84CA2F331C}" Type="Ref">/RT CompactRIO Target/SCB cRIO control shared var.lvlib/SCB Insert "Insert Rod"</Property>
+	<Property Name="varPersistentID:{45AD0120-CD5B-4D70-A1A1-FD84CA2F331C}" Type="Ref">/RT CompactRIO Target/SCB cRIO control shared var.lvlib/Insert Rod insertion</Property>
 	<Property Name="varPersistentID:{48C237E0-21AE-4E61-9BC0-40574BA4C159}" Type="Ref">/RT CompactRIO Target/Chassis/Mod6/DIO25</Property>
 	<Property Name="varPersistentID:{49C8ADAB-874B-4465-AED3-3713C481C13A}" Type="Ref">/RT CompactRIO Target/Chassis/Mod7/DI10</Property>
-	<Property Name="varPersistentID:{4B3C5A84-C837-45E7-ABBC-F8D545521965}" Type="Ref">/RT CompactRIO Target/SCB cRIO control shared var.lvlib/SCB Pump Out Source</Property>
-	<Property Name="varPersistentID:{4CF7BC76-BCA3-471B-8081-B602E56579E1}" Type="Ref">/My Computer/Shared Variable libraries/SCB Monitor shared var.lvlib/Current Sample</Property>
+	<Property Name="varPersistentID:{4B3C5A84-C837-45E7-ABBC-F8D545521965}" Type="Ref">/RT CompactRIO Target/SCB cRIO control shared var.lvlib/Pump Out Source</Property>
+	<Property Name="varPersistentID:{4CF7BC76-BCA3-471B-8081-B602E56579E1}" Type="Ref">/My Computer/Shared Variable libraries/SCB readback shared var.lvlib/Current Sample</Property>
 	<Property Name="varPersistentID:{4D4DBBF2-7326-43E0-B4F5-4A86F0DB591E}" Type="Ref">/RT CompactRIO Target/Chassis/Mod6/DIO24</Property>
-	<Property Name="varPersistentID:{4D81A2D3-20FC-4FEE-9422-EA906D4787F2}" Type="Ref">/My Computer/Shared Variable libraries/SCB Monitor shared var.lvlib/Start Sample Change</Property>
-	<Property Name="varPersistentID:{4F4E7FCD-1FE6-4BE3-977C-0FA6987C4CE5}" Type="Ref">/RT CompactRIO Target/SCB cRIO readback shared var.lvlib/SCB Converted Encoder</Property>
+	<Property Name="varPersistentID:{4D81A2D3-20FC-4FEE-9422-EA906D4787F2}" Type="Ref">/My Computer/Shared Variable libraries/SCB control shared var.lvlib/Start Sample Change</Property>
+	<Property Name="varPersistentID:{4F4E7FCD-1FE6-4BE3-977C-0FA6987C4CE5}" Type="Ref">/RT CompactRIO Target/SCB cRIO readback shared var.lvlib/Converted Encoder</Property>
 	<Property Name="varPersistentID:{50354585-16DA-423E-89B0-F6DA6F901641}" Type="Ref">/RT CompactRIO Target/Chassis/Mod7/DI29</Property>
 	<Property Name="varPersistentID:{55F954E3-9FE4-4B33-B15D-B82CF41A00A2}" Type="Ref">/RT CompactRIO Target/Chassis/Mod3/AI9</Property>
-	<Property Name="varPersistentID:{5722830D-A0C4-424A-B729-6AE6B88B7F7F}" Type="Ref">/My Computer/Shared Variable libraries/SCB Monitor shared var.lvlib/Change Complete</Property>
-	<Property Name="varPersistentID:{57616D7E-5B1F-436F-A1DC-AD58F34FD71F}" Type="Ref">/RT CompactRIO Target/SCB cRIO control shared var.lvlib/SCB Bypass Control</Property>
+	<Property Name="varPersistentID:{5722830D-A0C4-424A-B729-6AE6B88B7F7F}" Type="Ref">/My Computer/Shared Variable libraries/SCB status shared var.lvlib/Change Complete</Property>
+	<Property Name="varPersistentID:{57616D7E-5B1F-436F-A1DC-AD58F34FD71F}" Type="Ref">/RT CompactRIO Target/SCB cRIO control shared var.lvlib/Bypass Control</Property>
 	<Property Name="varPersistentID:{58A8B265-8617-4E43-82EE-5D36D977EBFC}" Type="Ref">/RT CompactRIO Target/Chassis/Mod3/AI29</Property>
 	<Property Name="varPersistentID:{58CE062F-803D-4452-A471-7F9052B1B8D7}" Type="Ref">/RT CompactRIO Target/Chassis/Mod7/DI28</Property>
-	<Property Name="varPersistentID:{5A63563E-9A9B-40F7-B639-EAB551513021}" Type="Ref">/My Computer/Shared Variable libraries/SCB Monitor shared var.lvlib/Encoder Position</Property>
+	<Property Name="varPersistentID:{5A63563E-9A9B-40F7-B639-EAB551513021}" Type="Ref">/My Computer/Shared Variable libraries/SCB readback shared var.lvlib/Encoder Position</Property>
+	<Property Name="varPersistentID:{5E7F8D96-37CD-45FB-871B-CA52E841774B}" Type="Ref">/RT CompactRIO Target/SCB cRIO readback shared var.lvlib/Bellows Vacuum Readings</Property>
 	<Property Name="varPersistentID:{5F0D051E-4D4E-4B44-B33D-10EC8993D0B3}" Type="Ref">/RT CompactRIO Target/Chassis/Mod7/Ion Source GV close</Property>
 	<Property Name="varPersistentID:{5F54190D-24A0-4972-AFE0-56B526F70A80}" Type="Ref">/RT CompactRIO Target/Chassis/Mod6/DIO16</Property>
 	<Property Name="varPersistentID:{602D1CB0-58A5-4E41-A792-662AF3B75521}" Type="Ref">/RT CompactRIO Target/Chassis/Mod4/AO15</Property>
 	<Property Name="varPersistentID:{6255A82C-3E5C-4EE2-9AD8-AC2A7553CDFA}" Type="Ref">/RT CompactRIO Target/Chassis/Mod7/DI19</Property>
 	<Property Name="varPersistentID:{6315DD6C-E3C7-4790-A63F-4FBC768059D6}" Type="Ref">/RT CompactRIO Target/Chassis/Mod3/AI31</Property>
-	<Property Name="varPersistentID:{650A6BA6-DEFF-4BCC-913F-1985FA716CBB}" Type="Ref">/RT CompactRIO Target/SCB cRIO control shared var.lvlib/SCB Insert "Retract Rod"</Property>
-	<Property Name="varPersistentID:{6B4691EC-0CB9-435B-B784-B2556EEC130A}" Type="Ref">/RT CompactRIO Target/SCB cRIO control shared var.lvlib/SCB SM Config Update?</Property>
-	<Property Name="varPersistentID:{6B5EEEC1-91A4-4B85-875A-396068077E0B}" Type="Ref">/RT CompactRIO Target/SCB cRIO status shared var.lvlib/SCB Motor status</Property>
+	<Property Name="varPersistentID:{650A6BA6-DEFF-4BCC-913F-1985FA716CBB}" Type="Ref">/RT CompactRIO Target/SCB cRIO control shared var.lvlib/Retract Rod insertion</Property>
+	<Property Name="varPersistentID:{6B4691EC-0CB9-435B-B784-B2556EEC130A}" Type="Ref">/RT CompactRIO Target/SCB cRIO control shared var.lvlib/SM Config Update?</Property>
+	<Property Name="varPersistentID:{6B5EEEC1-91A4-4B85-875A-396068077E0B}" Type="Ref">/RT CompactRIO Target/SCB cRIO status shared var.lvlib/Motor status</Property>
 	<Property Name="varPersistentID:{6D347326-B02B-45EB-9F8D-5FD5427AD8D0}" Type="Ref">/RT CompactRIO Target/Chassis/Mod6/DIO10</Property>
 	<Property Name="varPersistentID:{6D509565-C40D-41E7-9EF6-BE9B6C03BDDA}" Type="Ref">/RT CompactRIO Target/Chassis/Mod3/AI12</Property>
-	<Property Name="varPersistentID:{70E16704-DBA5-419E-8E03-193C2EE74886}" Type="Ref">/My Computer/Shared Variable libraries/SCB Monitor shared var.lvlib/Random Change</Property>
-	<Property Name="varPersistentID:{73ECD3C3-D4C2-428B-A855-9539499114BA}" Type="Ref">/RT CompactRIO Target/SCB cRIO control shared var.lvlib/SCB Encoder Offset</Property>
+	<Property Name="varPersistentID:{70E16704-DBA5-419E-8E03-193C2EE74886}" Type="Ref">/My Computer/Shared Variable libraries/SCB control shared var.lvlib/Random Change</Property>
+	<Property Name="varPersistentID:{73ECD3C3-D4C2-428B-A855-9539499114BA}" Type="Ref">/RT CompactRIO Target/SCB cRIO control shared var.lvlib/Encoder Offset</Property>
 	<Property Name="varPersistentID:{74C9EB0D-C786-4312-BDB7-235A557FD93D}" Type="Ref">/RT CompactRIO Target/Chassis/Mod3/AI21</Property>
 	<Property Name="varPersistentID:{765E521B-6692-48D9-8718-6EED210C42E3}" Type="Ref">/RT CompactRIO Target/Chassis/Mod6/DIO27</Property>
 	<Property Name="varPersistentID:{776C5BB4-EF11-4A4C-85F2-636982EBDBFC}" Type="Ref">/RT CompactRIO Target/Chassis/Mod7/DI17</Property>
@@ -82,38 +86,39 @@
 	<Property Name="varPersistentID:{7B256641-4068-4DA8-9564-E4513CFD3BEC}" Type="Ref">/RT CompactRIO Target/Chassis/Mod6/DIO6</Property>
 	<Property Name="varPersistentID:{7CAB8F2A-00A1-4C52-8A26-62E6CA65B5C3}" Type="Ref">/RT CompactRIO Target/Chassis/Mod6/DIO9</Property>
 	<Property Name="varPersistentID:{7CECF2CD-7463-424C-B9DC-B13FBC29FC25}" Type="Ref">/RT CompactRIO Target/Chassis/Mod6/DIO1</Property>
-	<Property Name="varPersistentID:{7D417059-67C7-451A-985F-B128C80F54F5}" Type="Ref">/RT CompactRIO Target/SCB cRIO control shared var.lvlib/SCB Encoder radius</Property>
+	<Property Name="varPersistentID:{7D417059-67C7-451A-985F-B128C80F54F5}" Type="Ref">/RT CompactRIO Target/SCB cRIO control shared var.lvlib/Encoder radius</Property>
 	<Property Name="varPersistentID:{7D752CF1-2BE5-4102-85F5-38CAE13B303A}" Type="Ref">/RT CompactRIO Target/Chassis/Mod4/AO8</Property>
 	<Property Name="varPersistentID:{7DEDAC91-543B-4D0D-AE31-5494C9C73BE9}" Type="Ref">/RT CompactRIO Target/Chassis/Mod7/DI16</Property>
 	<Property Name="varPersistentID:{7E538EBF-2E54-483D-8AD0-32A557691BD3}" Type="Ref">/RT CompactRIO Target/Chassis/Mod5/Retract Rod</Property>
-	<Property Name="varPersistentID:{7E9C7894-D3BC-433D-BD68-1A477AA5B741}" Type="Ref">/My Computer/Shared Variable libraries/SCB Monitor shared var.lvlib/Encoder Destination</Property>
+	<Property Name="varPersistentID:{7E9C7894-D3BC-433D-BD68-1A477AA5B741}" Type="Ref">/My Computer/Shared Variable libraries/SCB readback shared var.lvlib/Encoder Destination</Property>
 	<Property Name="varPersistentID:{7EB9CA67-761D-4606-BFB2-BE2E5422E36A}" Type="Ref">/RT CompactRIO Target/Chassis/Mod3/AI18</Property>
 	<Property Name="varPersistentID:{7FC927EA-D8C5-4036-95FA-65BC3EEDF8A1}" Type="Ref">/RT CompactRIO Target/Chassis/Mod3/AI4</Property>
 	<Property Name="varPersistentID:{835BD19C-3C40-4B6B-B98F-42183867C959}" Type="Ref">/RT CompactRIO Target/Chassis/Mod7/DI20</Property>
 	<Property Name="varPersistentID:{87272F3B-FC3F-4B97-A3F7-63C11A624920}" Type="Ref">/RT CompactRIO Target/Chassis/Mod3/AI23</Property>
-	<Property Name="varPersistentID:{8885D3FB-4BCC-456B-91A0-0322D04A715C}" Type="Ref">/RT CompactRIO Target/SCB cRIO status shared var.lvlib/SCB Change Complete</Property>
+	<Property Name="varPersistentID:{8885D3FB-4BCC-456B-91A0-0322D04A715C}" Type="Ref">/RT CompactRIO Target/SCB cRIO status shared var.lvlib/Change Complete</Property>
 	<Property Name="varPersistentID:{88A31F5B-5234-4D9E-9E46-4060E3BA7C60}" Type="Ref">/RT CompactRIO Target/Chassis/Mod4/AO3</Property>
 	<Property Name="varPersistentID:{8AA87F98-94BF-4101-A71F-26410492DFC4}" Type="Ref">/RT CompactRIO Target/Chassis/Mod6/DIO2</Property>
-	<Property Name="varPersistentID:{8AFE6B6E-875B-42AF-AA5C-E3786CDF2B46}" Type="Ref">/RT CompactRIO Target/SCB cRIO control shared var.lvlib/SCB Random Change</Property>
+	<Property Name="varPersistentID:{8AFE6B6E-875B-42AF-AA5C-E3786CDF2B46}" Type="Ref">/RT CompactRIO Target/SCB cRIO control shared var.lvlib/Random Change</Property>
 	<Property Name="varPersistentID:{91C826A4-19D9-44A8-B0CB-FB32337847E3}" Type="Ref">/RT CompactRIO Target/Chassis/Mod6/DIO7</Property>
 	<Property Name="varPersistentID:{9252989E-9221-4FA6-8C8F-0E35A57E3D18}" Type="Ref">/RT CompactRIO Target/Chassis/Mod7/Sample Rod Up</Property>
 	<Property Name="varPersistentID:{947ADBBF-C80F-4B53-834A-C7970AD14585}" Type="Ref">/RT CompactRIO Target/Chassis/Mod7/DI11</Property>
 	<Property Name="varPersistentID:{954C03C7-9AE1-4B60-B7C0-4EB73553303F}" Type="Ref">/RT CompactRIO Target/Chassis/Mod3/AI5</Property>
-	<Property Name="varPersistentID:{95EAAEAA-8EA2-487C-BBC5-6C35971BE05D}" Type="Ref">/RT CompactRIO Target/SCB cRIO control shared var.lvlib/SCB Open Wheel GV</Property>
+	<Property Name="varPersistentID:{95EAAEAA-8EA2-487C-BBC5-6C35971BE05D}" Type="Ref">/RT CompactRIO Target/SCB cRIO control shared var.lvlib/Open Wheel GV</Property>
 	<Property Name="varPersistentID:{96E6DDE1-D5F5-4297-B72B-E37118845148}" Type="Ref">/RT CompactRIO Target/Chassis/Mod7/DI14</Property>
 	<Property Name="varPersistentID:{970CEBE1-84B1-4B96-8919-118042436EF1}" Type="Ref">/RT CompactRIO Target/Chassis/Mod4/AO5</Property>
-	<Property Name="varPersistentID:{977DF333-2818-4394-A9D3-61D852DB75F4}" Type="Ref">/My Computer/Shared Variable libraries/SCB Monitor shared var.lvlib/Encoder Offset</Property>
-	<Property Name="varPersistentID:{984448EA-0943-4244-B63E-1DD0B39FBA4F}" Type="Ref">/My Computer/Shared Variable libraries/SCB Monitor shared var.lvlib/Motor Status</Property>
+	<Property Name="varPersistentID:{977DF333-2818-4394-A9D3-61D852DB75F4}" Type="Ref">/My Computer/Shared Variable libraries/SCB control shared var.lvlib/Encoder Offset</Property>
+	<Property Name="varPersistentID:{984448EA-0943-4244-B63E-1DD0B39FBA4F}" Type="Ref">/My Computer/Shared Variable libraries/SCB status shared var.lvlib/Motor Status</Property>
 	<Property Name="varPersistentID:{9A0710FE-EA85-41FF-AAAC-DF9DF1C5E6E0}" Type="Ref">/RT CompactRIO Target/Chassis/Mod5/Ion Source GV</Property>
-	<Property Name="varPersistentID:{9A2950F1-1394-4FD6-B377-4FCDC839115F}" Type="Ref">/RT CompactRIO Target/SCB cRIO control shared var.lvlib/SCB Requested Sample</Property>
-	<Property Name="varPersistentID:{9A6CC0DB-2FFF-4D56-9BC8-F8F2CED46009}" Type="Ref">/RT CompactRIO Target/SCB cRIO status shared var.lvlib/SCB Retract Rod Status</Property>
+	<Property Name="varPersistentID:{9A2950F1-1394-4FD6-B377-4FCDC839115F}" Type="Ref">/RT CompactRIO Target/SCB cRIO control shared var.lvlib/Requested Sample</Property>
+	<Property Name="varPersistentID:{9A6CC0DB-2FFF-4D56-9BC8-F8F2CED46009}" Type="Ref">/RT CompactRIO Target/SCB cRIO status shared var.lvlib/Retract Rod Status</Property>
 	<Property Name="varPersistentID:{9C4438C9-49E5-4B0A-95CF-B41C56223D1F}" Type="Ref">/RT CompactRIO Target/Chassis/Mod7/DI25</Property>
 	<Property Name="varPersistentID:{9C9D3556-70AC-46FA-B559-4D79934ED1B5}" Type="Ref">/RT CompactRIO Target/Chassis/Mod7/DI13</Property>
+	<Property Name="varPersistentID:{9D8D3666-E42F-4B7B-B67C-E58BA214BE03}" Type="Ref">/RT CompactRIO Target/SCB cRIO readback shared var.lvlib/IS Turbo foreline pressure</Property>
 	<Property Name="varPersistentID:{9D911625-6D5A-43FA-A573-095C5014FBB3}" Type="Ref">/RT CompactRIO Target/Chassis/Mod4/AO7</Property>
 	<Property Name="varPersistentID:{9EE63F6F-2F58-4E09-9ADB-EF1799B2C042}" Type="Ref">/RT CompactRIO Target/Chassis/Mod3/AI17</Property>
 	<Property Name="varPersistentID:{A1E9CBCB-22D0-41BD-9CEA-012855A0A3E5}" Type="Ref">/RT CompactRIO Target/Chassis/Mod6/DIO23</Property>
 	<Property Name="varPersistentID:{A340A0E1-5DBA-42A7-AB63-624527C53211}" Type="Ref">/RT CompactRIO Target/Chassis/Mod7/Ion Source GV open</Property>
-	<Property Name="varPersistentID:{A57EB847-324F-4C6D-9B0B-97B04CB67DED}" Type="Ref">/RT CompactRIO Target/SCB cRIO readback shared var.lvlib/SCB Encoder Position</Property>
+	<Property Name="varPersistentID:{A57EB847-324F-4C6D-9B0B-97B04CB67DED}" Type="Ref">/RT CompactRIO Target/SCB cRIO readback shared var.lvlib/Encoder Position</Property>
 	<Property Name="varPersistentID:{A58EC884-842F-44C3-9CAF-D81B70CC2763}" Type="Ref">/RT CompactRIO Target/Chassis/Mod7/Retract Rod Out</Property>
 	<Property Name="varPersistentID:{A6C226F7-27CB-4D50-9CDB-FCA1C0179C70}" Type="Ref">/RT CompactRIO Target/Chassis/Mod6/DIO0</Property>
 	<Property Name="varPersistentID:{A8B85D1F-0E1A-474F-8570-72EC0E25ED96}" Type="Ref">/RT CompactRIO Target/Chassis/Mod7/DI15</Property>
@@ -122,57 +127,60 @@
 	<Property Name="varPersistentID:{ACCD064C-BAE1-4C86-9381-AC444C2DA91C}" Type="Ref">/RT CompactRIO Target/Chassis/Mod7/Sample Rod Down</Property>
 	<Property Name="varPersistentID:{AD0D7EA6-6888-466C-B60A-A5D2E8EEFD93}" Type="Ref">/RT CompactRIO Target/Chassis/Mod6/DIO26</Property>
 	<Property Name="varPersistentID:{AD9E55FF-FB2D-465B-A14A-A791AE4CD9E7}" Type="Ref">/RT CompactRIO Target/Chassis/Mod4/AO14</Property>
+	<Property Name="varPersistentID:{ADBEAFA1-932D-431B-929B-53AD8BF2187D}" Type="Ref">/RT CompactRIO Target/SCB cRIO readback shared var.lvlib/Bellows Turbo</Property>
 	<Property Name="varPersistentID:{B1574B58-93C0-46A8-B763-38DC9E2638FE}" Type="Ref">/RT CompactRIO Target/Chassis/Mod3/AI10</Property>
 	<Property Name="varPersistentID:{B24EF786-3540-462B-B234-F701BB87F32B}" Type="Ref">/RT CompactRIO Target/Chassis/Mod3/Cathode Voltage Monitor</Property>
 	<Property Name="varPersistentID:{B2BF9259-EB61-4400-9428-496352F269A2}" Type="Ref">/RT CompactRIO Target/Chassis/Mod4/AO1</Property>
-	<Property Name="varPersistentID:{B6D539DD-4F46-45BA-AFCB-84E54249ED45}" Type="Ref">/RT CompactRIO Target/SCB cRIO control shared var.lvlib/SCB Raise "Sample Rod"</Property>
+	<Property Name="varPersistentID:{B6D539DD-4F46-45BA-AFCB-84E54249ED45}" Type="Ref">/RT CompactRIO Target/SCB cRIO control shared var.lvlib/Sample Rod retraction</Property>
 	<Property Name="varPersistentID:{BA0B0635-4DB7-4F00-803A-F54FF3984C5C}" Type="Ref">/RT CompactRIO Target/Chassis/Mod6/DIO4</Property>
 	<Property Name="varPersistentID:{BEB5A29D-49F1-4C6A-B3F8-5BCA3744F122}" Type="Ref">/RT CompactRIO Target/Chassis/Mod3/AI20</Property>
-	<Property Name="varPersistentID:{C0C5123F-EEFC-49A1-8F4C-624F8F5C421E}" Type="Ref">/RT CompactRIO Target/SCB cRIO control shared var.lvlib/SCB Open Ion Source GV</Property>
+	<Property Name="varPersistentID:{C0C5123F-EEFC-49A1-8F4C-624F8F5C421E}" Type="Ref">/RT CompactRIO Target/SCB cRIO control shared var.lvlib/Open Ion Source GV</Property>
 	<Property Name="varPersistentID:{C0EBB6FC-6928-4E4D-9874-A373C889B3D4}" Type="Ref">/RT CompactRIO Target/Chassis/Mod3/AI6</Property>
 	<Property Name="varPersistentID:{C0FF0C1D-766E-46DF-A2A0-ED95EC10E330}" Type="Ref">/RT CompactRIO Target/Chassis/Mod6/DIO11</Property>
-	<Property Name="varPersistentID:{C148C510-1D75-4705-8A6A-A8DD8C5502BE}" Type="Ref">/RT CompactRIO Target/SCB cRIO status shared var.lvlib/SCB Changing Sample</Property>
+	<Property Name="varPersistentID:{C148C510-1D75-4705-8A6A-A8DD8C5502BE}" Type="Ref">/RT CompactRIO Target/SCB cRIO status shared var.lvlib/Changing Sample</Property>
 	<Property Name="varPersistentID:{C17676F1-A9C0-4166-B0B9-F39F585DA93F}" Type="Ref">/RT CompactRIO Target/Chassis/Mod6/DIO29</Property>
-	<Property Name="varPersistentID:{C3685F04-2DD6-4532-9BB9-B3BA797955BD}" Type="Ref">/RT CompactRIO Target/SCB cRIO control shared var.lvlib/SCB Start Sample Change</Property>
-	<Property Name="varPersistentID:{C69D5FCF-0234-4650-8074-2B29AE3EF376}" Type="Ref">/RT CompactRIO Target/SCB cRIO status shared var.lvlib/SCB Wheel GV Status</Property>
+	<Property Name="varPersistentID:{C3685F04-2DD6-4532-9BB9-B3BA797955BD}" Type="Ref">/RT CompactRIO Target/SCB cRIO control shared var.lvlib/Start Sample Change</Property>
+	<Property Name="varPersistentID:{C69D5FCF-0234-4650-8074-2B29AE3EF376}" Type="Ref">/RT CompactRIO Target/SCB cRIO status shared var.lvlib/Wheel GV Status</Property>
 	<Property Name="varPersistentID:{C6BE1A67-E729-4D55-B3CA-F05B78D26860}" Type="Ref">/RT CompactRIO Target/Chassis/Mod3/AI16</Property>
-	<Property Name="varPersistentID:{C7BD9BC0-E7F1-4F29-B77A-C0CCD15F1452}" Type="Ref">/RT CompactRIO Target/SCB cRIO control shared var.lvlib/SCB Retract "Retract Rod"</Property>
+	<Property Name="varPersistentID:{C7BD9BC0-E7F1-4F29-B77A-C0CCD15F1452}" Type="Ref">/RT CompactRIO Target/SCB cRIO control shared var.lvlib/Retract Rod retraction</Property>
 	<Property Name="varPersistentID:{C7EB6A0A-DD1B-479E-A761-404FE1F30A4F}" Type="Ref">/RT CompactRIO Target/Chassis/Mod6/DIO8</Property>
-	<Property Name="varPersistentID:{C8DB0AD4-5B1C-40C2-988D-0DBB103E02D0}" Type="Ref">/RT CompactRIO Target/SCB cRIO status shared var.lvlib/SCB Ion Source GV Status</Property>
+	<Property Name="varPersistentID:{C8DB0AD4-5B1C-40C2-988D-0DBB103E02D0}" Type="Ref">/RT CompactRIO Target/SCB cRIO status shared var.lvlib/Ion Source GV Status</Property>
 	<Property Name="varPersistentID:{C9E0B064-A8DA-4007-9325-AB0C8A08622F}" Type="Ref">/RT CompactRIO Target/Chassis/Mod6/DIO15</Property>
-	<Property Name="varPersistentID:{CA16D0CA-4EDF-418A-9BED-CC6AB211B552}" Type="Ref">/RT CompactRIO Target/SCB cRIO control shared var.lvlib/SCB Vent Source</Property>
+	<Property Name="varPersistentID:{CA16D0CA-4EDF-418A-9BED-CC6AB211B552}" Type="Ref">/RT CompactRIO Target/SCB cRIO control shared var.lvlib/Vent Source</Property>
 	<Property Name="varPersistentID:{CB201205-E48E-4B6E-9AFD-8DE90BFCED3B}" Type="Ref">/RT CompactRIO Target/Chassis/Mod3/AI19</Property>
 	<Property Name="varPersistentID:{CCC9843B-DD02-4741-8D50-9786E34FFC25}" Type="Ref">/RT CompactRIO Target/Chassis/Mod5/Wheel GV</Property>
 	<Property Name="varPersistentID:{CCD1988D-1616-4BEA-9EA0-A985E45D4819}" Type="Ref">/RT CompactRIO Target/Chassis/Mod6/DIO19</Property>
 	<Property Name="varPersistentID:{CE1E9797-80AF-4B0A-9AD2-83EBD37165F0}" Type="Ref">/RT CompactRIO Target/Chassis/Mod6/DIO31</Property>
 	<Property Name="varPersistentID:{CFF75AA1-1198-464D-ACE4-5D5E06A0ECD7}" Type="Ref">/RT CompactRIO Target/Chassis/Mod7/DI26</Property>
-	<Property Name="varPersistentID:{D0550A92-AF7D-4D69-9AB8-DF51A06C36A1}" Type="Ref">/RT CompactRIO Target/SCB cRIO control shared var.lvlib/SCB Lower "Sample Rod"</Property>
+	<Property Name="varPersistentID:{D0550A92-AF7D-4D69-9AB8-DF51A06C36A1}" Type="Ref">/RT CompactRIO Target/SCB cRIO control shared var.lvlib/Sample Rod insertion</Property>
 	<Property Name="varPersistentID:{D524BB4F-02FF-4AC2-BFC7-E4D9E817FB13}" Type="Ref">/RT CompactRIO Target/Chassis/Mod6/DIO22</Property>
-	<Property Name="varPersistentID:{D5370252-DA33-47FB-BC5F-FE2C5D86D6BD}" Type="Ref">/RT CompactRIO Target/SCB cRIO readback shared var.lvlib/SCB Raw Encoder</Property>
+	<Property Name="varPersistentID:{D5370252-DA33-47FB-BC5F-FE2C5D86D6BD}" Type="Ref">/RT CompactRIO Target/SCB cRIO readback shared var.lvlib/Raw Encoder</Property>
 	<Property Name="varPersistentID:{DA44FEF5-7E4C-47F2-B9A1-082BE5927AB0}" Type="Ref">/RT CompactRIO Target/Chassis/Mod4/AO6</Property>
-	<Property Name="varPersistentID:{DAC4F8F7-1BED-442B-80CF-26B291219260}" Type="Ref">/RT CompactRIO Target/SCB cRIO status shared var.lvlib/SCB Sample Rod Status</Property>
+	<Property Name="varPersistentID:{DAC4F8F7-1BED-442B-80CF-26B291219260}" Type="Ref">/RT CompactRIO Target/SCB cRIO status shared var.lvlib/Sample Rod Status</Property>
 	<Property Name="varPersistentID:{DAC6200B-2A7C-464C-BBC7-6508F3003A80}" Type="Ref">/RT CompactRIO Target/Chassis/Mod3/AI30</Property>
-	<Property Name="varPersistentID:{DB0DF1F6-89FC-4280-B157-25FF555F6694}" Type="Ref">/My Computer/Shared Variable libraries/SCB Monitor shared var.lvlib/Converted Encoder</Property>
+	<Property Name="varPersistentID:{DB0DF1F6-89FC-4280-B157-25FF555F6694}" Type="Ref">/My Computer/Shared Variable libraries/SCB readback shared var.lvlib/Converted Encoder</Property>
 	<Property Name="varPersistentID:{DF64B61D-8CCD-4841-969B-379907A56502}" Type="Ref">/RT CompactRIO Target/Chassis/Mod7/Wheel GV close</Property>
-	<Property Name="varPersistentID:{DF9F804C-1A8A-425B-AA92-94753640C2F3}" Type="Ref">/RT CompactRIO Target/SCB cRIO control shared var.lvlib/SCB Retract "Insert Rod"</Property>
+	<Property Name="varPersistentID:{DF9F804C-1A8A-425B-AA92-94753640C2F3}" Type="Ref">/RT CompactRIO Target/SCB cRIO control shared var.lvlib/Insert Rod retraction</Property>
 	<Property Name="varPersistentID:{E3C30025-34C1-424F-B09B-41D9E7D2056B}" Type="Ref">/RT CompactRIO Target/Chassis/Mod3/AI26</Property>
 	<Property Name="varPersistentID:{E71C5C6C-49C8-4F37-864C-9AA9A5C8760A}" Type="Ref">/RT CompactRIO Target/Chassis/Mod7/DI27</Property>
 	<Property Name="varPersistentID:{E971AC14-9C11-401C-9C3F-A2C987B6710D}" Type="Ref">/RT CompactRIO Target/Chassis/Mod4/AO13</Property>
 	<Property Name="varPersistentID:{EA4E915D-6302-4393-8FF7-66A2BB1AE7BF}" Type="Ref">/RT CompactRIO Target/Chassis/Mod7/DI21</Property>
 	<Property Name="varPersistentID:{EC27CED0-825E-47AC-86BA-CE75B0D32019}" Type="Ref">/RT CompactRIO Target/Chassis/Mod4/AO11</Property>
 	<Property Name="varPersistentID:{EDD09163-A266-4219-BBEE-D01DC3DE350A}" Type="Ref">/RT CompactRIO Target/Chassis/Mod4/Immersion Lens Current Set</Property>
-	<Property Name="varPersistentID:{EF4D7472-9C94-4650-8114-FCA3B245ADFD}" Type="Ref">/RT CompactRIO Target/SCB cRIO readback shared var.lvlib/SCB Current Sample</Property>
-	<Property Name="varPersistentID:{EFA493B3-15AB-4F7A-86D4-4208BA8FFA2F}" Type="Ref">/RT CompactRIO Target/SCB cRIO control shared var.lvlib/SCB Shutdown</Property>
+	<Property Name="varPersistentID:{EF4D7472-9C94-4650-8114-FCA3B245ADFD}" Type="Ref">/RT CompactRIO Target/SCB cRIO readback shared var.lvlib/Current Sample</Property>
+	<Property Name="varPersistentID:{EFA493B3-15AB-4F7A-86D4-4208BA8FFA2F}" Type="Ref">/RT CompactRIO Target/SCB cRIO control shared var.lvlib/Shutdown</Property>
+	<Property Name="varPersistentID:{F4C39E21-E3DC-43D5-999F-2461BBCF675C}" Type="Ref">/My Computer/Shared Variable libraries/SCB control shared var.lvlib/Timeouts</Property>
 	<Property Name="varPersistentID:{F715D790-085E-4FC3-8B9B-2883D9060341}" Type="Ref">/RT CompactRIO Target/Chassis/Mod5/Cathode HV Enable</Property>
 	<Property Name="varPersistentID:{F7211263-E9CB-49CA-B3C8-37E24330F99E}" Type="Ref">/RT CompactRIO Target/Chassis/Mod6/DIO13</Property>
 	<Property Name="varPersistentID:{F7609999-2BF6-4B89-B4F1-36166E1E9292}" Type="Ref">/RT CompactRIO Target/Chassis/Mod7/Insert Rod In</Property>
 	<Property Name="varPersistentID:{F8C69120-4356-4368-9BD7-D2EFACAC3AC2}" Type="Ref">/RT CompactRIO Target/Chassis/Mod6/DIO3</Property>
 	<Property Name="varPersistentID:{F9FC2202-D149-4FE3-85A3-302F3DD4AB77}" Type="Ref">/RT CompactRIO Target/Chassis/Mod3/AI25</Property>
-	<Property Name="varPersistentID:{FCB3FEE8-A3D0-47DD-801C-58DCBE2ADCF8}" Type="Ref">/My Computer/Shared Variable libraries/SCB Monitor shared var.lvlib/Raw Encoder</Property>
+	<Property Name="varPersistentID:{FC83741C-711A-4F34-A4DA-56F9CD3CAF29}" Type="Ref">/RT CompactRIO Target/SCB cRIO readback shared var.lvlib/Status Message</Property>
+	<Property Name="varPersistentID:{FCB3FEE8-A3D0-47DD-801C-58DCBE2ADCF8}" Type="Ref">/My Computer/Shared Variable libraries/SCB readback shared var.lvlib/Raw Encoder</Property>
 	<Property Name="varPersistentID:{FCE4FBB1-5406-4FCA-B10F-D1FE06478C88}" Type="Ref">/RT CompactRIO Target/Chassis/Mod3/AI13</Property>
 	<Property Name="varPersistentID:{FCEB539B-95D2-4249-8C05-454D6D098D24}" Type="Ref">/RT CompactRIO Target/Chassis/Mod6/DIO14</Property>
-	<Property Name="varPersistentID:{FE502A7A-6DE5-466D-B05C-851D93DD9CAB}" Type="Ref">/My Computer/Shared Variable libraries/SCB Monitor shared var.lvlib/Requested Sample</Property>
-	<Property Name="varPersistentID:{FF09C721-39F4-4925-9A89-CAB6A34551D0}" Type="Ref">/RT CompactRIO Target/SCB cRIO status shared var.lvlib/SCB Current State</Property>
+	<Property Name="varPersistentID:{FE502A7A-6DE5-466D-B05C-851D93DD9CAB}" Type="Ref">/My Computer/Shared Variable libraries/SCB control shared var.lvlib/Requested Sample</Property>
+	<Property Name="varPersistentID:{FF09C721-39F4-4925-9A89-CAB6A34551D0}" Type="Ref">/RT CompactRIO Target/SCB cRIO status shared var.lvlib/Current State</Property>
 	<Property Name="varPersistentID:{FF89C021-112A-4616-B7DC-7838F071BB9F}" Type="Ref">/RT CompactRIO Target/Chassis/Mod6/DIO17</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="IOScan.Faults" Type="Str"></Property>
@@ -193,11 +201,9 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Shared Variable libraries" Type="Folder">
-			<Item Name="SCB config shared var.lvlib" Type="Library" URL="../SCB config shared var.lvlib"/>
 			<Item Name="SCB control shared var.lvlib" Type="Library" URL="../SCB control shared var.lvlib"/>
-			<Item Name="SCB HV shared var.lvlib" Type="Library" URL="../SCB HV shared var.lvlib"/>
-			<Item Name="SCB Monitor shared var.lvlib" Type="Library" URL="../SCB Monitor shared var.lvlib"/>
-			<Item Name="SCB vacuum shared var.lvlib" Type="Library" URL="../SCB vacuum shared var.lvlib"/>
+			<Item Name="SCB readback shared var.lvlib" Type="Library" URL="../SCB readback shared var.lvlib"/>
+			<Item Name="SCB status shared var.lvlib" Type="Library" URL="../SCB status shared var.lvlib"/>
 		</Item>
 		<Item Name="Interface states.ctl" Type="VI" URL="../Interface states.ctl"/>
 		<Item Name="SCB Host Controller.vi" Type="VI" URL="../SCB Host Controller.vi"/>
@@ -232,7 +238,7 @@
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref"></Property>
 				<Property Name="Exe_Vardep[0].LibDeploy" Type="Bool">true</Property>
-				<Property Name="Exe_Vardep[0].LibItemID" Type="Ref">/My Computer/Shared Variable libraries/SCB Monitor shared var.lvlib</Property>
+				<Property Name="Exe_Vardep[0].LibItemID" Type="Ref"></Property>
 				<Property Name="Exe_VardepDeployAtStartup" Type="Bool">true</Property>
 				<Property Name="Exe_VardepLibItemCount" Type="Int">1</Property>
 				<Property Name="Source[0].itemID" Type="Str">{2247EB78-0852-472E-89E4-0370B12EA7C8}</Property>
@@ -246,7 +252,7 @@
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].type" Type="Str">VI</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Shared Variable libraries/SCB Monitor shared var.lvlib</Property>
+				<Property Name="Source[3].itemID" Type="Ref"></Property>
 				<Property Name="Source[3].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[3].type" Type="Str">Library</Property>
@@ -2375,9 +2381,14 @@ AddOutputFilter chunkFilter
 				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
 				<Item Name="nisyscfg.lvlib" Type="Library" URL="/&lt;vilib&gt;/nisyscfg/nisyscfg.lvlib"/>
 				<Item Name="Set Scan Engine Mode.vi" Type="VI" URL="/&lt;vilib&gt;/NIScanEngine/ScanEngine/Set Scan Engine Mode.vi"/>
+				<Item Name="subTimeDelay.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/TimeDelayBlock.llb/subTimeDelay.vi"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
+				<Item Name="VISA Configure Serial Port" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port"/>
+				<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
+				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
+			<Item Name="Agilent Turbo Readback.ctl" Type="VI" URL="../Agilent Turbo Readback.ctl"/>
 			<Item Name="Bypass control.ctl" Type="VI" URL="../Bypass control.ctl"/>
 			<Item Name="Encoder bit cluster.ctl" Type="VI" URL="../Encoder bit cluster.ctl"/>
 			<Item Name="GV states.ctl" Type="VI" URL="../GV states.ctl"/>

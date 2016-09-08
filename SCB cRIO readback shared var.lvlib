@@ -4,7 +4,25 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">352354304</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
-	<Item Name="SCB Converted Encoder" Type="Variable">
+	<Item Name="Bellows Turbo" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Network</Property>
+		<Property Name="Network:BuffSize" Type="Str">50</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">True</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typeDesc" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#9F!!!!"5!A!!!!!!&amp;!"V!!Q!85G^U982J&lt;WZB&lt;#"4='6F:#!I;V*143E!%U!$!!R7&lt;WRU97&gt;F)'2S&lt;X!!!".!!Q!-1X6S=G6O&gt;#"E=G&amp;X!!!D1!-!(&amp;"V&lt;8!A6'6N='6S982V=G5A+'2F:X*F:8-A1SE!!!Y!5!!%!!!!!1!#!!-!!1!%!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</Property>
+	</Item>
+	<Item Name="Bellows Vacuum Readings" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Network</Property>
+		<Property Name="Network:BuffSize" Type="Str">50</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">True</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typeDesc" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#+BA!!!"5!A!!!!!!&amp;!".!#A!-1W^O&gt;G6D&gt;(*P&lt;C!S!!!41!I!$%.P&lt;H:F9X2S&lt;WYA-1!!%5!+!!N*&lt;WYA2W&amp;V:W5A-1!21!I!#UFP&lt;C"(986H:3!S!!Y!5!!%!!!!!1!#!!-!!1!%!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</Property>
+	</Item>
+	<Item Name="Converted Encoder" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network,Real-Time Features</Property>
 		<Property Name="Network:AccessType" Type="Str">read/write</Property>
 		<Property Name="Network:BuffSize" Type="Str">1</Property>
@@ -26,7 +44,7 @@
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"#0A!!!"5!A!!!!!!#!!R!)1&gt;#&lt;W^M:7&amp;O!"Z!1!!"`````Q!!%%&amp;S=G&amp;Z)'^G)%*P&lt;WRF97Y!!!%!!1!!!!!!!!!!!!!!!!</Property>
 	</Item>
-	<Item Name="SCB Current Sample" Type="Variable">
+	<Item Name="Current Sample" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Initial Value,Network,Real-Time Features</Property>
 		<Property Name="Initial Value:Value" Type="Str">0.000000</Property>
 		<Property Name="Network:AccessType" Type="Str">read/write</Property>
@@ -46,7 +64,7 @@
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!A(!!!!"5!A!!!!!!"!!N!"1!&amp;65FO&gt;$A!!1!!!!!!!!!!!!!!</Property>
 	</Item>
-	<Item Name="SCB Encoder destination" Type="Variable">
+	<Item Name="Encoder destination" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network</Property>
 		<Property Name="Network:BuffSize" Type="Str">50</Property>
 		<Property Name="Network:SingleWriter" Type="Str">True</Property>
@@ -57,7 +75,7 @@
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!D(Q!!!"5!A!!!!!!"!!N!!Q!&amp;37ZU-T)!!1!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
-	<Item Name="SCB Encoder Position" Type="Variable">
+	<Item Name="Encoder Position" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Initial Value,Network,Real-Time Features</Property>
 		<Property Name="Initial Value:Value" Type="Str">0</Property>
 		<Property Name="Network:AccessType" Type="Str">read/write</Property>
@@ -73,7 +91,7 @@
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!D(Q!!!"5!A!!!!!!"!!N!!Q!&amp;37ZU-T)!!1!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
-	<Item Name="SCB HV control" Type="Variable">
+	<Item Name="HV control" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network</Property>
 		<Property Name="Network:BuffSize" Type="Str">50</Property>
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
@@ -84,7 +102,7 @@
 		<Property Name="typedefPath1" Type="PathRel">../HV controls.ctl</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$Z^1!!!"5!A!!!!!!'!"Z!)2B*&lt;7VF=H.J&lt;WYA4'6O=S")6C"&amp;&lt;G&amp;C&lt;'5!!#&amp;!#A!;37VN:8*T;7^O)%RF&lt;H-A6G^M&gt;'&amp;H:3"4:81!!#&amp;!#A!;37VN:8*T;7^O)%RF&lt;H-A1X6S=G6O&gt;#"4:81!!":!)2&amp;$982I&lt;W2F)%B7)%6O97*M:1!:1!I!%U.B&gt;'BP:'5A6G^M&gt;'&amp;H:3"4:81!0!$R!!!!!!!!!!%03&amp;9A9W^O&gt;(*P&lt;(-O9X2M!#2!5!!&amp;!!!!!1!#!!-!"!Z41U)A3&amp;9A9W^O&gt;(*P&lt;!!!!1!&amp;!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
-	<Item Name="SCB HV readbacks" Type="Variable">
+	<Item Name="HV readbacks" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network</Property>
 		<Property Name="Network:BuffSize" Type="Str">50</Property>
 		<Property Name="Network:ElemSize" Type="Str">1</Property>
@@ -98,7 +116,25 @@
 		<Property Name="typedefPath1" Type="PathRel">../HV readbacks.ctl</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$V]1!!!"5!A!!!!!!&amp;!"V!#A!81W&amp;U;'^E:3"$&gt;8*S:7ZU)%VP&lt;GFU&lt;X)!(5!+!"&gt;$982I&lt;W2F)&amp;:P&lt;(2B:W5A47^O;82P=A!F1!I!(EFN&lt;76S=WFP&lt;C"-:7ZT)%.V=H*F&lt;H1A47^O;82P=A!!*5!+!"Z*&lt;7VF=H.J&lt;WYA4'6O=S"7&lt;WRU97&gt;F)%VP&lt;GFU&lt;X)!!$U!]1!!!!!!!!!"%%B7)(*F972C97.L=SZD&gt;'Q!*%"1!!1!!!!"!!)!!R"41U)A3&amp;9A=G6B:'*B9WNT!!!"!!1!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
-	<Item Name="SCB Raw Encoder" Type="Variable">
+	<Item Name="Ion Source Turbo" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Network</Property>
+		<Property Name="Network:BuffSize" Type="Str">50</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">True</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typeDesc" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#9F!!!!"5!A!!!!!!&amp;!"V!!Q!85G^U982J&lt;WZB&lt;#"4='6F:#!I;V*143E!%U!$!!R7&lt;WRU97&gt;F)'2S&lt;X!!!".!!Q!-1X6S=G6O&gt;#"E=G&amp;X!!!D1!-!(&amp;"V&lt;8!A6'6N='6S982V=G5A+'2F:X*F:8-A1SE!!!Y!5!!%!!!!!1!#!!-!!1!%!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</Property>
+	</Item>
+	<Item Name="IS Turbo foreline pressure" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Network</Property>
+		<Property Name="Network:BuffSize" Type="Str">50</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">True</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typeDesc" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"5!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!!!!!!!</Property>
+	</Item>
+	<Item Name="Raw Encoder" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network,Real-Time Features</Property>
 		<Property Name="Network:AccessType" Type="Str">read/write</Property>
 		<Property Name="Network:BuffSize" Type="Str">1</Property>
@@ -118,5 +154,23 @@
 		<Property Name="Real-Time Features:UseBuffering" Type="Str">False</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"#0A!!!"5!A!!!!!!#!!R!)1&gt;#&lt;W^M:7&amp;O!"Z!1!!"`````Q!!%%&amp;S=G&amp;Z)'^G)%*P&lt;WRF97Y!!!%!!1!!!!!!!!!!!!!!!!</Property>
+	</Item>
+	<Item Name="Sample Changer Vacuum Reading" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Network</Property>
+		<Property Name="Network:BuffSize" Type="Str">50</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">True</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typeDesc" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!J*1!!!"5!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!!!!!!</Property>
+	</Item>
+	<Item Name="Status Message" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Network</Property>
+		<Property Name="Network:BuffSize" Type="Str">50</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">True</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typeDesc" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!A(!!!!"5!A!!!!!!"!!A!-0````]!!1!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
 </Library>
