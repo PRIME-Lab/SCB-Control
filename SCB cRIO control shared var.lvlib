@@ -93,6 +93,20 @@
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"9!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!!!!!!!</Property>
 	</Item>
+	<Item Name="Minimum Times" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Network</Property>
+		<Property Name="Network:BuffSize" Type="Str">50</Property>
+		<Property Name="Network:ElemSize" Type="Str">1</Property>
+		<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
+		<Property Name="Network:SingleWriter" Type="Str">False</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">True</Property>
+		<Property Name="numTypedefs" Type="UInt">1</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typedefName1" Type="Str">Minimum Times.ctl</Property>
+		<Property Name="typedefPath1" Type="PathRel">../Minimum Times.ctl</Property>
+		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"J:1!!!"9!A!!!!!!#!"^!"A!:5G^U982F)&amp;&gt;I:76M)%VJ&lt;GFN&gt;7UA6'FN:1!U!0%!!!!!!!!!!2&amp;.;7ZJ&lt;86N)&amp;2J&lt;76T,G.U&lt;!!;1&amp;!!!1!!$%VJ&lt;GFN&gt;7UA6'FN:1!!!1!"!!!!!!!!!!!!!!</Property>
+	</Item>
 	<Item Name="Open Ion Source GV" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network</Property>
 		<Property Name="Network:BuffSize" Type="Str">50</Property>
