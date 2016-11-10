@@ -241,7 +241,10 @@
 		<Item Name="SCB-HMI.vi" Type="VI" URL="../SCB-HMI.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="Bypass control.ctl" Type="VI" URL="../Bypass control.ctl"/>
+			<Item Name="GV states.ctl" Type="VI" URL="../GV states.ctl"/>
+			<Item Name="Horizontal Rod states.ctl" Type="VI" URL="../Horizontal Rod states.ctl"/>
 			<Item Name="SC2 states.ctl" Type="VI" URL="../SC2 states.ctl"/>
+			<Item Name="Vertical Rod states.ctl" Type="VI" URL="../Vertical Rod states.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Sample Changer B Monitor" Type="EXE">

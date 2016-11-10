@@ -126,9 +126,11 @@
 		<Property Name="Network:URL" Type="Str">\\192.168.1.95\SCB cRIO control shared var\Minimum Times</Property>
 		<Property Name="Network:UseBinding" Type="Str">True</Property>
 		<Property Name="Network:UseBuffering" Type="Str">True</Property>
-		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="numTypedefs" Type="UInt">1</Property>
 		<Property Name="type" Type="Str">Network</Property>
-		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!D(Q!!!"9!A!!!!!!#!!5!"A!!#!"1!!%!!!!"!!%!!!!!!!!!!!!!</Property>
+		<Property Name="typedefName1" Type="Str">Minimum Times.ctl</Property>
+		<Property Name="typedefPath1" Type="PathRel">../Minimum Times.ctl</Property>
+		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"J:1!!!"9!A!!!!!!#!"^!"A!:5G^U982F)&amp;&gt;I:76M)%VJ&lt;GFN&gt;7UA6'FN:1!U!0%!!!!!!!!!!2&amp;.;7ZJ&lt;86N)&amp;2J&lt;76T,G.U&lt;!!;1&amp;!!!1!!$%VJ&lt;GFN&gt;7UA6'FN:1!!!1!"!!!!!!!!!!!!!!</Property>
 	</Item>
 	<Item Name="Open Ion Source GV" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network</Property>
@@ -324,7 +326,7 @@
 		<Property Name="Network:UseBuffering" Type="Str">True</Property>
 		<Property Name="numTypedefs" Type="UInt">0</Property>
 		<Property Name="type" Type="Str">Network</Property>
-		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!X-Q!!!"9!A!!!!!!#!!5!"A!!%A"1!!9!!!!!!!!!!!!!!!!!!1!"!!!!!!!!!!!!!!!!!!!!!!!!!!!</Property>
+		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#MK!!!!"9!A!!!!!!(!"&amp;!"A!+5W&amp;N='RF)&amp;*P:!!!%5!'!!J*&lt;H.F=H1A5G^E!!!21!9!#V*F&gt;(*B9X1A5G^E!!^!"A!)6WBF:7QA2V9!!".!"A!.37^O)&amp;.P&gt;8*D:3"(6A!41!9!$&amp;*P&gt;'&amp;U:3"8;'6F&lt;!!!*%"1!!9!!!!"!!)!!Q!%!!516'FN:7^V&gt;(-A1WRV=X2F=A!!!1!'!!!!!!!!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
 	<Item Name="Vent Source" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network</Property>

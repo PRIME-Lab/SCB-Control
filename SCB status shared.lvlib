@@ -53,12 +53,15 @@
 		<Property Name="Network:ElemSize" Type="Str">1</Property>
 		<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
 		<Property Name="Network:ProjectBinding" Type="Str">False</Property>
+		<Property Name="Network:SingleWriter" Type="Str">False</Property>
 		<Property Name="Network:URL" Type="Str">\\192.168.1.95\SCB cRIO status shared var\Insert Rod Status</Property>
 		<Property Name="Network:UseBinding" Type="Str">True</Property>
 		<Property Name="Network:UseBuffering" Type="Str">True</Property>
-		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="numTypedefs" Type="UInt">1</Property>
 		<Property Name="type" Type="Str">Network</Property>
-		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!&lt;&amp;Q!!!"9!A!!!!!!"!!5!"A!!!1!!!!!!!!!!!!!!!!</Property>
+		<Property Name="typedefName1" Type="Str">Horizontal Rod states.ctl</Property>
+		<Property Name="typedefPath1" Type="PathRel">../Horizontal Rod states.ctl</Property>
+		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"H9Q!!!"9!A!!!!!!"!&amp;%!]1!!!!!!!!!"'5BP=GF[&lt;WZU97QA5G^E)(.U982F=SZD&gt;'Q!,U!7!!-/=X2B&gt;(6T)(6O9WRF98)'=G^E)'FO"X*P:#"P&gt;81!"%6O&gt;7U!!!%!!!!!!!!!!!!!!!!</Property>
 	</Item>
 	<Item Name="Ion Source GV Status" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network</Property>
@@ -70,9 +73,11 @@
 		<Property Name="Network:URL" Type="Str">\\192.168.1.95\SCB cRIO status shared var\Ion Source GV Status</Property>
 		<Property Name="Network:UseBinding" Type="Str">True</Property>
 		<Property Name="Network:UseBuffering" Type="Str">True</Property>
-		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="numTypedefs" Type="UInt">1</Property>
 		<Property Name="type" Type="Str">Network</Property>
-		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!&lt;&amp;Q!!!"9!A!!!!!!"!!5!"A!!!1!!!!!!!!!!!!!!!!</Property>
+		<Property Name="typedefName1" Type="Str">GV states.ctl</Property>
+		<Property Name="typedefPath1" Type="PathRel">../GV states.ctl</Property>
+		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!":61!!!"9!A!!!!!!"!%-!]1!!!!!!!!!"$5&gt;7)(.U982F=SZD&gt;'Q!,5!7!!-/=X2B&gt;(6T)(6O9WRF98)'9WRP=W6E"'^Q:7Y!!!2&amp;&lt;H6N!!!"!!!!!!!!!!!!!!!!</Property>
 	</Item>
 	<Item Name="Motor status" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network</Property>
@@ -98,9 +103,11 @@
 		<Property Name="Network:URL" Type="Str">\\192.168.1.95\SCB cRIO status shared var\Retract Rod Status</Property>
 		<Property Name="Network:UseBinding" Type="Str">True</Property>
 		<Property Name="Network:UseBuffering" Type="Str">True</Property>
-		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="numTypedefs" Type="UInt">1</Property>
 		<Property Name="type" Type="Str">Network</Property>
-		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!&lt;&amp;Q!!!"9!A!!!!!!"!!5!"A!!!1!!!!!!!!!!!!!!!!</Property>
+		<Property Name="typedefName1" Type="Str">Horizontal Rod states.ctl</Property>
+		<Property Name="typedefPath1" Type="PathRel">../Horizontal Rod states.ctl</Property>
+		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"H9Q!!!"9!A!!!!!!"!&amp;%!]1!!!!!!!!!"'5BP=GF[&lt;WZU97QA5G^E)(.U982F=SZD&gt;'Q!,U!7!!-/=X2B&gt;(6T)(6O9WRF98)'=G^E)'FO"X*P:#"P&gt;81!"%6O&gt;7U!!!%!!!!!!!!!!!!!!!!</Property>
 	</Item>
 	<Item Name="Sample Rod Status" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network</Property>
@@ -112,9 +119,11 @@
 		<Property Name="Network:URL" Type="Str">\\192.168.1.95\SCB cRIO status shared var\Sample Rod Status</Property>
 		<Property Name="Network:UseBinding" Type="Str">True</Property>
 		<Property Name="Network:UseBuffering" Type="Str">True</Property>
-		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="numTypedefs" Type="UInt">1</Property>
 		<Property Name="type" Type="Str">Network</Property>
-		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!&lt;&amp;Q!!!"9!A!!!!!!"!!5!"A!!!1!!!!!!!!!!!!!!!!</Property>
+		<Property Name="typedefName1" Type="Str">Vertical Rod states.ctl</Property>
+		<Property Name="typedefPath1" Type="PathRel">../Vertical Rod states.ctl</Property>
+		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"H9Q!!!"9!A!!!!!!"!&amp;%!]1!!!!!!!!!"&amp;V:F=H2J9W&amp;M)&amp;*P:#"T&gt;'&amp;U:8-O9X2M!$&amp;!&amp;A!$$H.U982V=S"V&lt;G.M:7&amp;S#(*P:#"E&lt;X&gt;O"H*P:#"V=!!!"%6O&gt;7U!!!%!!!!!!!!!!!!!!!!</Property>
 	</Item>
 	<Item Name="State Machine Error" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network</Property>
@@ -140,8 +149,10 @@
 		<Property Name="Network:URL" Type="Str">\\192.168.1.95\SCB cRIO status shared var\Wheel GV Status</Property>
 		<Property Name="Network:UseBinding" Type="Str">True</Property>
 		<Property Name="Network:UseBuffering" Type="Str">True</Property>
-		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="numTypedefs" Type="UInt">1</Property>
 		<Property Name="type" Type="Str">Network</Property>
-		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!&lt;&amp;Q!!!"9!A!!!!!!"!!5!"A!!!1!!!!!!!!!!!!!!!!</Property>
+		<Property Name="typedefName1" Type="Str">GV states.ctl</Property>
+		<Property Name="typedefPath1" Type="PathRel">../GV states.ctl</Property>
+		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!":61!!!"9!A!!!!!!"!%-!]1!!!!!!!!!"$5&gt;7)(.U982F=SZD&gt;'Q!,5!7!!-/=X2B&gt;(6T)(6O9WRF98)'9WRP=W6E"'^Q:7Y!!!2&amp;&lt;H6N!!!"!!!!!!!!!!!!!!!!</Property>
 	</Item>
 </Library>
