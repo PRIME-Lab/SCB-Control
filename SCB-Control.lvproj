@@ -240,9 +240,14 @@
 		<Item Name="SCB status shared.lvlib" Type="Library" URL="../SCB status shared.lvlib"/>
 		<Item Name="SCB-HMI.vi" Type="VI" URL="../SCB-HMI.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
+			<Item Name="Agilent Turbo Readback.ctl" Type="VI" URL="../Agilent Turbo Readback.ctl"/>
 			<Item Name="Bypass control.ctl" Type="VI" URL="../Bypass control.ctl"/>
+			<Item Name="GP307 gauge readings.ctl" Type="VI" URL="../GP307 gauge readings.ctl"/>
 			<Item Name="GV states.ctl" Type="VI" URL="../GV states.ctl"/>
 			<Item Name="Horizontal Rod states.ctl" Type="VI" URL="../Horizontal Rod states.ctl"/>
+			<Item Name="HV controls.ctl" Type="VI" URL="../HV controls.ctl"/>
+			<Item Name="HV readbacks.ctl" Type="VI" URL="../HV readbacks.ctl"/>
+			<Item Name="Minimum Times.ctl" Type="VI" URL="../Minimum Times.ctl"/>
 			<Item Name="SC2 states.ctl" Type="VI" URL="../SC2 states.ctl"/>
 			<Item Name="Vertical Rod states.ctl" Type="VI" URL="../Vertical Rod states.ctl"/>
 		</Item>
@@ -2459,7 +2464,7 @@ DirectoryIndex index.htm
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{3C5B7819-3D38-4B7E-A327-C415AA5B3E1C}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">6</Property>
+				<Property Name="Bld_version.build" Type="Int">7</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
