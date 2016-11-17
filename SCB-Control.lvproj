@@ -252,13 +252,13 @@
 			<Item Name="Vertical Rod states.ctl" Type="VI" URL="../Vertical Rod states.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
-			<Item Name="Sample Changer B Monitor" Type="EXE">
+			<Item Name="Sample Changer B HMI" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{E2A386B6-63B7-4E32-BDDC-A2276F3FF605}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{15717293-4572-485A-8F3D-CD907A4D6543}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{1D8A7C77-48C2-4D89-9223-5639672AF655}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">Sample Changer B Monitor</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Sample Changer B HMI</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
@@ -276,12 +276,21 @@
 				<Property Name="Destination[1].path" Type="Path">../builds/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Exe_iconItemID" Type="Ref"></Property>
 				<Property Name="Exe_Vardep[0].LibDeploy" Type="Bool">true</Property>
-				<Property Name="Exe_Vardep[0].LibItemID" Type="Ref"></Property>
+				<Property Name="Exe_Vardep[0].LibItemID" Type="Ref">/RT CompactRIO Target/SCB cRIO control shared var.lvlib</Property>
+				<Property Name="Exe_Vardep[1].LibDeploy" Type="Bool">true</Property>
+				<Property Name="Exe_Vardep[1].LibItemID" Type="Ref">/My Computer/SCB status shared.lvlib</Property>
+				<Property Name="Exe_Vardep[2].LibDeploy" Type="Bool">true</Property>
+				<Property Name="Exe_Vardep[2].LibItemID" Type="Ref">/My Computer/SCB control shared.lvlib</Property>
+				<Property Name="Exe_Vardep[3].LibDeploy" Type="Bool">true</Property>
+				<Property Name="Exe_Vardep[3].LibItemID" Type="Ref">/RT CompactRIO Target/SCB cRIO status shared var.lvlib</Property>
+				<Property Name="Exe_Vardep[4].LibDeploy" Type="Bool">true</Property>
+				<Property Name="Exe_Vardep[4].LibItemID" Type="Ref">/RT CompactRIO Target/SCB cRIO readback shared var.lvlib</Property>
+				<Property Name="Exe_Vardep[5].LibDeploy" Type="Bool">true</Property>
+				<Property Name="Exe_Vardep[5].LibItemID" Type="Ref">/My Computer/SCB readback shared.lvlib</Property>
 				<Property Name="Exe_VardepDeployAtStartup" Type="Bool">true</Property>
-				<Property Name="Exe_VardepLibItemCount" Type="Int">1</Property>
-				<Property Name="Source[0].itemID" Type="Str">{2247EB78-0852-472E-89E4-0370B12EA7C8}</Property>
+				<Property Name="Exe_VardepLibItemCount" Type="Int">6</Property>
+				<Property Name="Source[0].itemID" Type="Str">{D227F2DC-1275-4513-876F-343412383883}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/SCB-HMI.vi</Property>
@@ -292,16 +301,26 @@
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].type" Type="Str">VI</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[3].itemID" Type="Ref"></Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/SCB control shared.lvlib</Property>
 				<Property Name="Source[3].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[3].type" Type="Str">Library</Property>
-				<Property Name="SourceCount" Type="Int">4</Property>
+				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/SCB readback shared.lvlib</Property>
+				<Property Name="Source[4].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[4].type" Type="Str">Library</Property>
+				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/My Computer/SCB status shared.lvlib</Property>
+				<Property Name="Source[5].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[5].type" Type="Str">Library</Property>
+				<Property Name="SourceCount" Type="Int">6</Property>
 				<Property Name="TgtF_companyName" Type="Str">Purdue University</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">Sample Changer B Monitor</Property>
-				<Property Name="TgtF_internalName" Type="Str">Sample Changer B Monitor</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Sample Changer B HMI</Property>
+				<Property Name="TgtF_internalName" Type="Str">Sample Changer B HMI</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2016 Purdue University</Property>
-				<Property Name="TgtF_productName" Type="Str">Sample Changer B Monitor</Property>
+				<Property Name="TgtF_productName" Type="Str">Sample Changer B HMI</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{9757CE0E-6DDE-482F-BB7B-804B21E9620E}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">SCB_Monitor.exe</Property>
 			</Item>
@@ -437,7 +456,7 @@ DirectoryIndex index.htm
 				<Property Name="crio.Type" Type="Str">NI 9205</Property>
 				<Property Name="cRIOModule.AI0.TerminalMode" Type="Str">2</Property>
 				<Property Name="cRIOModule.AI0.VoltageRange" Type="Str">0</Property>
-				<Property Name="cRIOModule.AI1.TerminalMode" Type="Str">0</Property>
+				<Property Name="cRIOModule.AI1.TerminalMode" Type="Str">2</Property>
 				<Property Name="cRIOModule.AI1.VoltageRange" Type="Str">0</Property>
 				<Property Name="cRIOModule.AI10.TerminalMode" Type="Str">0</Property>
 				<Property Name="cRIOModule.AI10.VoltageRange" Type="Str">0</Property>
@@ -459,7 +478,7 @@ DirectoryIndex index.htm
 				<Property Name="cRIOModule.AI18.VoltageRange" Type="Str">0</Property>
 				<Property Name="cRIOModule.AI19.TerminalMode" Type="Str">0</Property>
 				<Property Name="cRIOModule.AI19.VoltageRange" Type="Str">0</Property>
-				<Property Name="cRIOModule.AI2.TerminalMode" Type="Str">0</Property>
+				<Property Name="cRIOModule.AI2.TerminalMode" Type="Str">2</Property>
 				<Property Name="cRIOModule.AI2.VoltageRange" Type="Str">0</Property>
 				<Property Name="cRIOModule.AI20.TerminalMode" Type="Str">0</Property>
 				<Property Name="cRIOModule.AI20.VoltageRange" Type="Str">0</Property>
@@ -481,7 +500,7 @@ DirectoryIndex index.htm
 				<Property Name="cRIOModule.AI28.VoltageRange" Type="Str">0</Property>
 				<Property Name="cRIOModule.AI29.TerminalMode" Type="Str">0</Property>
 				<Property Name="cRIOModule.AI29.VoltageRange" Type="Str">0</Property>
-				<Property Name="cRIOModule.AI3.TerminalMode" Type="Str">0</Property>
+				<Property Name="cRIOModule.AI3.TerminalMode" Type="Str">2</Property>
 				<Property Name="cRIOModule.AI3.VoltageRange" Type="Str">0</Property>
 				<Property Name="cRIOModule.AI30.TerminalMode" Type="Str">0</Property>
 				<Property Name="cRIOModule.AI30.VoltageRange" Type="Str">0</Property>
@@ -2419,29 +2438,12 @@ DirectoryIndex index.htm
 		</Item>
 		<Item Name="Timeouts.ctl" Type="VI" URL="../Timeouts.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
-			<Item Name="vi.lib" Type="Folder">
-				<Item Name="Clear All Faults.vi" Type="VI" URL="/&lt;vilib&gt;/NIScanEngine/faults/Clear All Faults.vi"/>
-				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
-				<Item Name="FB Overlay DBL.ctl" Type="VI" URL="/&lt;vilib&gt;/functionblocks/FB Property/FB Overlay DBL.ctl"/>
-				<Item Name="IOV engine refnum from target address.vi" Type="VI" URL="/&lt;vilib&gt;/NIScanEngine/ScanEngine/IOV engine refnum from target address.vi"/>
-				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
-				<Item Name="nisyscfg.lvlib" Type="Library" URL="/&lt;vilib&gt;/nisyscfg/nisyscfg.lvlib"/>
-				<Item Name="Set Scan Engine Mode.vi" Type="VI" URL="/&lt;vilib&gt;/NIScanEngine/ScanEngine/Set Scan Engine Mode.vi"/>
-				<Item Name="subTimeDelay.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/TimeDelayBlock.llb/subTimeDelay.vi"/>
-				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
-				<Item Name="VISA Configure Serial Port" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port"/>
-				<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
-				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
-				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
-			</Item>
-			<Item Name="Agilent Turbo Readback.ctl" Type="VI" URL="../Agilent Turbo Readback.ctl"/>
 			<Item Name="Bypass control.ctl" Type="VI" URL="../Bypass control.ctl"/>
 			<Item Name="Encoder bit cluster.ctl" Type="VI" URL="../Encoder bit cluster.ctl"/>
 			<Item Name="GV states.ctl" Type="VI" URL="../GV states.ctl"/>
 			<Item Name="Horizontal Rod states.ctl" Type="VI" URL="../Horizontal Rod states.ctl"/>
 			<Item Name="HV controls.ctl" Type="VI" URL="../HV controls.ctl"/>
 			<Item Name="HV readbacks.ctl" Type="VI" URL="../HV readbacks.ctl"/>
-			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="Minimum Times.ctl" Type="VI" URL="../Minimum Times.ctl"/>
 			<Item Name="SC2 states.ctl" Type="VI" URL="../SC2 states.ctl"/>
 			<Item Name="Vertical Rod states.ctl" Type="VI" URL="../Vertical Rod states.ctl"/>
@@ -2464,7 +2466,7 @@ DirectoryIndex index.htm
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{3C5B7819-3D38-4B7E-A327-C415AA5B3E1C}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">7</Property>
+				<Property Name="Bld_version.build" Type="Int">8</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
@@ -2475,7 +2477,7 @@ DirectoryIndex index.htm
 				<Property Name="Destination[1].path" Type="Path">/home/lvuser/natinst/bin/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{3CFECFFC-3948-4E5B-A45C-06F7D0052B7F}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{C43F0BED-72AC-475B-B52F-1CFB1B5C7A3B}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/RT CompactRIO Target/SCB RT.vi</Property>

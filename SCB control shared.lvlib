@@ -84,9 +84,11 @@
 		<Property Name="Network:URL" Type="Str">\\192.168.1.95\SCB cRIO control shared var\HV control</Property>
 		<Property Name="Network:UseBinding" Type="Str">True</Property>
 		<Property Name="Network:UseBuffering" Type="Str">True</Property>
-		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="numTypedefs" Type="UInt">1</Property>
 		<Property Name="type" Type="Str">Network</Property>
-		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"(1Q!!!"9!A!!!!!!$!!1!)1!&amp;!!I!!"!!5!!&amp;!!!!!1!"!!!!!1!"!!)!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</Property>
+		<Property Name="typedefName1" Type="Str">HV controls.ctl</Property>
+		<Property Name="typedefPath1" Type="PathRel">../HV controls.ctl</Property>
+		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$Z^1!!!"9!A!!!!!!'!"Z!)2B*&lt;7VF=H.J&lt;WYA4'6O=S")6C"&amp;&lt;G&amp;C&lt;'5!!#&amp;!#A!;37VN:8*T;7^O)%RF&lt;H-A6G^M&gt;'&amp;H:3"4:81!!#&amp;!#A!;37VN:8*T;7^O)%RF&lt;H-A1X6S=G6O&gt;#"4:81!!":!)2&amp;$982I&lt;W2F)%B7)%6O97*M:1!:1!I!%U.B&gt;'BP:'5A6G^M&gt;'&amp;H:3"4:81!0!$R!!!!!!!!!!%03&amp;9A9W^O&gt;(*P&lt;(-O9X2M!#2!5!!&amp;!!!!!1!#!!-!"!Z41U)A3&amp;9A9W^O&gt;(*P&lt;!!!!1!&amp;!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
 	<Item Name="Insert Rod insertion" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network</Property>

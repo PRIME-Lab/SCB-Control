@@ -14,9 +14,11 @@
 		<Property Name="Network:URL" Type="Str">\\192.168.1.95\SCB cRIO readback shared var\Bellows Turbo</Property>
 		<Property Name="Network:UseBinding" Type="Str">True</Property>
 		<Property Name="Network:UseBuffering" Type="Str">True</Property>
-		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="numTypedefs" Type="UInt">1</Property>
 		<Property Name="type" Type="Str">Network</Property>
-		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!X-Q!!!"9!A!!!!!!#!!5!!Q!!$A"1!!1!!!!!!!!!!!!"!!%!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</Property>
+		<Property Name="typedefName1" Type="Str">Agilent Turbo Readback.ctl</Property>
+		<Property Name="typedefPath1" Type="PathRel">../Agilent Turbo Readback.ctl</Property>
+		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$JZ1!!!"9!A!!!!!!&amp;!"V!!Q!85G^U982J&lt;WZB&lt;#"4='6F:#!I;V*143E!(5!$!"&gt;7&lt;WRU97&gt;F)'2S&lt;X!A+#5A&lt;W9A&lt;7&amp;Y+1!&gt;1!-!&amp;U.V=H*F&lt;H1A:(*B&gt;S!I*3"P:C"N98AJ!#.!!Q!=5(6N=#"5:7VQ:8*B&gt;(6S:3!I:'6H=G6F=S"$+1!!3Q$R!!!!!!!!!!%;17&gt;J&lt;'6O&gt;#"5&gt;8*C&lt;S"3:7&amp;E9G&amp;D;SZD&gt;'Q!+%"1!!1!!!!"!!)!!R6":WFM:7ZU)&amp;2V=G*P)'.M&gt;8.U:8)!!1!%!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
 	<Item Name="Bellows Vacuum Readings" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network</Property>
@@ -28,9 +30,11 @@
 		<Property Name="Network:URL" Type="Str">\\192.168.1.95\SCB cRIO readback shared var\Bellows Vacuum Readings</Property>
 		<Property Name="Network:UseBinding" Type="Str">True</Property>
 		<Property Name="Network:UseBuffering" Type="Str">True</Property>
-		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="numTypedefs" Type="UInt">1</Property>
 		<Property Name="type" Type="Str">Network</Property>
-		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"(1Q!!!"9!A!!!!!!#!!5!#A!!$A"1!!1!!!!!!!!!!!!"!!%!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</Property>
+		<Property Name="typedefName1" Type="Str">GP307 gauge readings.ctl</Property>
+		<Property Name="typedefPath1" Type="PathRel">../GP307 gauge readings.ctl</Property>
+		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#^O1!!!"9!A!!!!!!&amp;!".!#A!-1W^O&gt;G6D&gt;(*P&lt;C!S!!!41!I!$%.P&lt;H:F9X2S&lt;WYA-1!!%5!+!!N*&lt;WYA2W&amp;V:W5A-1!21!I!#UFP&lt;C"(986H:3!S!%%!]1!!!!!!!!!"'%&gt;1-T!X)'&gt;B&gt;7&gt;F)(*F972J&lt;G&gt;T,G.U&lt;!!A1&amp;!!"!!!!!%!!A!$$5&gt;1-T!X)%.M&gt;8.U:8)!!1!%!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
 	<Item Name="Converted Encoder" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network</Property>
@@ -95,12 +99,15 @@
 		<Property Name="Network:ElemSize" Type="Str">1</Property>
 		<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
 		<Property Name="Network:ProjectBinding" Type="Str">False</Property>
+		<Property Name="Network:SingleWriter" Type="Str">False</Property>
 		<Property Name="Network:URL" Type="Str">\\192.168.1.95\SCB cRIO readback shared var\HV readbacks</Property>
 		<Property Name="Network:UseBinding" Type="Str">True</Property>
 		<Property Name="Network:UseBuffering" Type="Str">True</Property>
-		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="numTypedefs" Type="UInt">1</Property>
 		<Property Name="type" Type="Str">Network</Property>
-		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"(1Q!!!"9!A!!!!!!#!!5!#A!!$A"1!!1!!!!!!!!!!!!"!!%!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</Property>
+		<Property Name="typedefName1" Type="Str">HV readbacks.ctl</Property>
+		<Property Name="typedefPath1" Type="PathRel">../HV readbacks.ctl</Property>
+		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$V]1!!!"9!A!!!!!!&amp;!"V!#A!81W&amp;U;'^E:3"$&gt;8*S:7ZU)%VP&lt;GFU&lt;X)!(5!+!"&gt;$982I&lt;W2F)&amp;:P&lt;(2B:W5A47^O;82P=A!F1!I!(EFN&lt;76S=WFP&lt;C"-:7ZT)%.V=H*F&lt;H1A47^O;82P=A!!*5!+!"Z*&lt;7VF=H.J&lt;WYA4'6O=S"7&lt;WRU97&gt;F)%VP&lt;GFU&lt;X)!!$U!]1!!!!!!!!!"%%B7)(*F972C97.L=SZD&gt;'Q!*%"1!!1!!!!"!!)!!R"41U)A3&amp;9A=G6B:'*B9WNT!!!"!!1!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
 	<Item Name="Ion Source Turbo" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network</Property>
@@ -112,9 +119,11 @@
 		<Property Name="Network:URL" Type="Str">\\192.168.1.95\SCB cRIO readback shared var\Ion Source Turbo</Property>
 		<Property Name="Network:UseBinding" Type="Str">True</Property>
 		<Property Name="Network:UseBuffering" Type="Str">True</Property>
-		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="numTypedefs" Type="UInt">1</Property>
 		<Property Name="type" Type="Str">Network</Property>
-		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!X-Q!!!"9!A!!!!!!#!!5!!Q!!$A"1!!1!!!!!!!!!!!!"!!%!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</Property>
+		<Property Name="typedefName1" Type="Str">Agilent Turbo Readback.ctl</Property>
+		<Property Name="typedefPath1" Type="PathRel">../Agilent Turbo Readback.ctl</Property>
+		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$JZ1!!!"9!A!!!!!!&amp;!"V!!Q!85G^U982J&lt;WZB&lt;#"4='6F:#!I;V*143E!(5!$!"&gt;7&lt;WRU97&gt;F)'2S&lt;X!A+#5A&lt;W9A&lt;7&amp;Y+1!&gt;1!-!&amp;U.V=H*F&lt;H1A:(*B&gt;S!I*3"P:C"N98AJ!#.!!Q!=5(6N=#"5:7VQ:8*B&gt;(6S:3!I:'6H=G6F=S"$+1!!3Q$R!!!!!!!!!!%;17&gt;J&lt;'6O&gt;#"5&gt;8*C&lt;S"3:7&amp;E9G&amp;D;SZD&gt;'Q!+%"1!!1!!!!"!!)!!R6":WFM:7ZU)&amp;2V=G*P)'.M&gt;8.U:8)!!1!%!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
 	<Item Name="IS Turbo foreline pressure" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network</Property>
