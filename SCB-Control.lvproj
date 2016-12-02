@@ -2438,12 +2438,29 @@ DirectoryIndex index.htm
 		</Item>
 		<Item Name="Timeouts.ctl" Type="VI" URL="../Timeouts.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
+			<Item Name="vi.lib" Type="Folder">
+				<Item Name="Clear All Faults.vi" Type="VI" URL="/&lt;vilib&gt;/NIScanEngine/faults/Clear All Faults.vi"/>
+				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
+				<Item Name="FB Overlay DBL.ctl" Type="VI" URL="/&lt;vilib&gt;/functionblocks/FB Property/FB Overlay DBL.ctl"/>
+				<Item Name="IOV engine refnum from target address.vi" Type="VI" URL="/&lt;vilib&gt;/NIScanEngine/ScanEngine/IOV engine refnum from target address.vi"/>
+				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
+				<Item Name="nisyscfg.lvlib" Type="Library" URL="/&lt;vilib&gt;/nisyscfg/nisyscfg.lvlib"/>
+				<Item Name="Set Scan Engine Mode.vi" Type="VI" URL="/&lt;vilib&gt;/NIScanEngine/ScanEngine/Set Scan Engine Mode.vi"/>
+				<Item Name="subTimeDelay.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/TimeDelayBlock.llb/subTimeDelay.vi"/>
+				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
+				<Item Name="VISA Configure Serial Port" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port"/>
+				<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
+				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
+				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
+			</Item>
+			<Item Name="Agilent Turbo Readback.ctl" Type="VI" URL="../Agilent Turbo Readback.ctl"/>
 			<Item Name="Bypass control.ctl" Type="VI" URL="../Bypass control.ctl"/>
 			<Item Name="Encoder bit cluster.ctl" Type="VI" URL="../Encoder bit cluster.ctl"/>
 			<Item Name="GV states.ctl" Type="VI" URL="../GV states.ctl"/>
 			<Item Name="Horizontal Rod states.ctl" Type="VI" URL="../Horizontal Rod states.ctl"/>
 			<Item Name="HV controls.ctl" Type="VI" URL="../HV controls.ctl"/>
 			<Item Name="HV readbacks.ctl" Type="VI" URL="../HV readbacks.ctl"/>
+			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="Minimum Times.ctl" Type="VI" URL="../Minimum Times.ctl"/>
 			<Item Name="SC2 states.ctl" Type="VI" URL="../SC2 states.ctl"/>
 			<Item Name="Vertical Rod states.ctl" Type="VI" URL="../Vertical Rod states.ctl"/>
